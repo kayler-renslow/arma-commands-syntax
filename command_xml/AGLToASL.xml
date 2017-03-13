@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='AGLToASL' version='1.50' game='arma3' format='1'><syntax><return><value type='POSITION_ASL' order='0'></value></return><param type='POSITION_AGL' name='posAGL' optional='f' order='1'>position to convert</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='aimedAtTarget' version='1.51' game='arma2oa' format='1'><syntax><return><value type='NUMBER' order='0'>0...1</value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='target' optional='f' order='0'></param><param type='STRING' name='weapon' optional='t' order='1'></param></array></syntax></command>
