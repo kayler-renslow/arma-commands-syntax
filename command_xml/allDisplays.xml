@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='allDisplays' version='1.38' game='arma3' format='1'><syntax><return><array unbounded='true' order='0'><value type='DISPLAY' order='0'></value></array></return></syntax></command>

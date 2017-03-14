@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='allVariables' version='1.38' game='arma3' format='1'><syntax><return><array unbounded='true' order='0'><value type='STRING' order='0'>variable name in lower case</value></array></return><param type='CONTROL' name='namespace' optional='f' order='1'><alt-types><t type='GROUP'/><t type='LOCATION'/><t type='NAMESPACE'/><t type='OBJECT'/><t type='TASK'/><t type='TEAM_MEMBER'/></alt-types></param></syntax></command>
