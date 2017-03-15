@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='breakOut' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='name' optional='f' order='1'>name of the scope (previously set with scopeName)</param></syntax><syntax><return><value type='ANYTHING' order='0'></value></return><param type='ANYTHING' name='value' optional='f' order='0'>a value to return</param><param type='STRING' name='name' optional='f' order='1'>name of the scope (previously set with scopeName)</param></syntax></command>

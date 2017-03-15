@@ -1,38 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<command name='actionKeysNamesArray' version='1.51' game='arma2oa' format='1'>
-	<syntax>
-		<return>
-			<array unbounded='t' order='0'>
-				<value type='STRING' order='0'></value>
-			</array>
-		</return>
-		<param type='STRING' name='userAction' optional='f' order='1'>Name of the action</param>
-	</syntax>
-	<syntax>
-		<return>
-			<array unbounded='t' order='0'>
-				<value type='STRING' order='0'></value>
-			</array>
-		</return>
-		<array unbounded='f' optional='f' order='1'>
-			<param type='STRING' name='userAction' optional='f' order='0'>Name of the action</param>
-			<param type='NUMBER' name='maxKeys' optional='f' order='1'>Maximum number of keys to return</param>
-		</array>
-	</syntax>
-	<syntax>
-		<return>
-			<array unbounded='t' order='0'>
-				<value type='STRING' order='0'></value>
-			</array>
-		</return>
-		<array unbounded='f' optional='f' order='1'>
-			<param type='STRING' name='userAction' optional='f' order='0'>Name of the action</param>
-			<param type='NUMBER' name='maxKeys' optional='f' order='1'>Maximum number of keys to return</param>
-			<param type='STRING' name='inputDevicePriority' optional='f' order='2'>Result sorted by inputDevicePriority
+<command name='actionKeysNamesArray' version='1.51' game='arma2oa' format='1'><syntax><return><array unbounded='t' order='0'><value type='STRING' order='0'></value></array></return><param type='STRING' name='userAction' optional='f' order='1'>Name of the action</param></syntax><syntax><return><array unbounded='t' order='0'><value type='STRING' order='0'></value></array></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='userAction' optional='f' order='0'>Name of the action</param><param type='NUMBER' name='maxKeys' optional='f' order='1'>Maximum number of keys to return</param></array></syntax><syntax><return><array unbounded='t' order='0'><value type='STRING' order='0'></value></array></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='userAction' optional='f' order='0'>Name of the action</param><param type='NUMBER' name='maxKeys' optional='f' order='1'>Maximum number of keys to return</param><param type='STRING' name='inputDevicePriority' optional='f' order='2'>Result sorted by inputDevicePriority
 				with values 'Mouse','Keyboard','Stick','Gamepad','Trackir','Combo' (mouse and keyboard
 				combinations),'Controler' (any controller other than mouse or keyboard). Other values are considered as
-				'Unsorted'.
-			</param>
-		</array>
-	</syntax>
-</command>
+				'Unsorted'.</param></array></syntax></command>
