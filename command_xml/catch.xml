@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='catch' version='1.00' game='arma' format='1'><syntax><return><value type='ANYTHING' order='0'></value></return><param type='EXCEPTION_TYPE' name='tryBlock' optional='f' order='0'></param><param type='CODE' name='code' optional='f' order='1'></param></syntax></command>
