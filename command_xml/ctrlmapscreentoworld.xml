@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlMapScreenToWorld' version='1.05' game='arma' format='1'><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'></value><value type='NUMBER' order='1'></value></array></return><param type='CONTROL' name='map' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='x' optional='f' order='0'></param><param type='NUMBER' name='y' optional='f' order='1'></param></array></syntax></command>

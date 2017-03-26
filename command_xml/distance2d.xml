@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='distance2D' version='1.50' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>Distance in meters or 1e10 if distance cannot be calculated</value></return><param type='OBJECT' name='param1' optional='f' order='0'><alt-types><t type='ARRAY'/></alt-types></param><param type='OBJECT' name='param2' optional='f' order='1'><alt-types><t type='ARRAY'/></alt-types></param></syntax></command>

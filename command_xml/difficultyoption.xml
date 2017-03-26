@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='difficultyOption' version='1.58' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='STRING' name='optionName' optional='f' order='1'>difficulty option name</param></syntax></command>

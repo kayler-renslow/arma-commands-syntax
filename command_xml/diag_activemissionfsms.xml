@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='diag_activeMissionFSMs' version='1.44' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>format [[name, state, timeout],...]: name: String state: timeout:</value></return></syntax></command>

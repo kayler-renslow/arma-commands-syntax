@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='drop' version='1.5' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='ARRAY' name='array' optional='f' order='1'>format ParticleArray.</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='do' version='1.85' game='ofpr' format='1'><syntax><return><value type='ANYTHING' order='0'></value></return><param type='WHILE' name='construct' optional='f' order='0'><alt-types><t type='FOR'/><t type='SWITCH'/><t type='WITH'/></alt-types></param><param type='CODE' name='code' optional='f' order='1'></param></syntax></command>

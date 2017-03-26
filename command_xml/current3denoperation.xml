@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='current3DENOperation' version='1.56' game='arma3' format='1'><syntax><return><value type='STRING' order='0'>operation name. Can be one of following: "" (no operation) "Move" "Rotate" "GroupTo" "Connect" "Create"</value></return></syntax></command>

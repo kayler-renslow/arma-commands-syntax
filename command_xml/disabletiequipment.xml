@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='disableTIEquipment' version='1.52.72031' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><param type='BOOLEAN' name='state' optional='f' order='1'>true to turn TI off, false to turn TI on</param></syntax></command>

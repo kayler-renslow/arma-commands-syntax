@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='currentWeaponTurret' version='1.12' game='arma3' format='1'><syntax><return><value type='STRING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><param type='ARRAY' name='turretPath' optional='f' order='1'></param></syntax></command>

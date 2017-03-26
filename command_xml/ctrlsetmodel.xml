@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlSetModel' version='1.32' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'>3D control</param><param type='STRING' name='model' optional='f' order='1'>model path</param></syntax></command>

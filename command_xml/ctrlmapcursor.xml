@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlMapCursor' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'>Map control</param><array unbounded='f' optional='f' order='1'><param type='STRING' name='defaultCursor' optional='f' order='0'>Cursor class name</param><param type='STRING' name='newCursor' optional='f' order='1'>Cursor class name</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='diag_enabled' version='1.00' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>true when enabled, false when disabled</value></return><param type='STRING' name='diag_mode' optional='f' order='1'></param></syntax></command>

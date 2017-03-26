@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlSetTextColor' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='display' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='r' optional='f' order='0'></param><param type='NUMBER' name='g' optional='f' order='1'></param><param type='NUMBER' name='b' optional='f' order='2'></param><param type='NUMBER' name='alpha' optional='f' order='3'></param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlSetAutoScrollRewind' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'>CT_LISTBOX or CT_CONTROLS_GROUP</param><param type='BOOLEAN' name='set' optional='f' order='1'>true to enable rewind</param></syntax></command>

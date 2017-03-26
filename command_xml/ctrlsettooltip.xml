@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlSetTooltip' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'>Any control type, (except for CT_STATIC &amp; CT_STRUCTURED_TEXT, although Arma 3 now supports these too)</param><param type='STRING' name='text' optional='f' order='1'></param></syntax></command>

@@ -6,7 +6,7 @@ Converting all commands will take a while since each command is manually convert
 tool (the tool is not publicly available).
 
 ## Progress
-* About 16.4% commands (343 total) have been converted. Phew.
+* About 28.9% commands (585 total) have been converted. Phew.
 
 ## How-to Use
 ### Intro
@@ -286,6 +286,11 @@ Here are all the types possible:
 |TRANSFORMATION|Transformation|
 |VECTOR|Vector|
 |VOID|Void|
+|.....|............|
+|FOR|For Type|Created from `for` command. Used with `do` command.|
+|SWITCH|Switch Type|Created from `switch` command. Used with `do` command.|
+|WHILE|While Type|Created from `while` command. Used with `do` command.|
+|WITH|With Type|Created from `with` command. Used with `do` command.|
 
 ## Example Syntax 1 - Basic Command
 This is the xml for [abs](https://community.bistudio.com/wiki/abs).

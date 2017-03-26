@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='doGetOut' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='units' optional='f' order='1'><alt-types><t type='ARRAY'/></alt-types></param></syntax></command>

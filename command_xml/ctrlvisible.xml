@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlVisible' version='1.5' game='ofp' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if the control is shown, false if not</value></return><param type='NUMBER' name='idc' optional='f' order='1'>control ID</param></syntax></command>

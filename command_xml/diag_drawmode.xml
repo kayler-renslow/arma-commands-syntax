@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='diag_drawMode' version='1.63' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='type' optional='f' order='1'>Type of visualization</param></syntax></command>

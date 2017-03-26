@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='driver' version='1.00' game='ofp' format='1'><syntax><return><value type='OBJECT' order='0'>The unit sitting in the driver place is returned. If vehicle is not a vehicle but a person, the person is returned.</value></return><param type='OBJECT' name='vehicle' optional='f' order='1'></param></syntax></command>

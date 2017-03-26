@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='damage' version='1.5' game='ofp' format='1'><syntax><return><value type='NUMBER' order='0'>The returned number is in range 0 (healthy) to 1 (dead).</value></return><param type='OBJECT' name='object' optional='f' order='1'></param></syntax></command>

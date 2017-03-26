@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlParentControlsGroup' version='1.58' game='arma3' format='1'><syntax><return><value type='CONTROL' order='0'></value></return><param type='CONTROL' name='ctrl' optional='f' order='1'>Child control</param></syntax></command>

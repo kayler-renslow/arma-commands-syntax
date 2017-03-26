@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='currentMuzzle' version='1.51' game='arma2oa' format='1'><syntax><return><value type='STRING' order='0'>current muzzle<alt-types><t type='NUMBER'/></alt-types></value></return><param type='OBJECT' name='gunner' optional='f' order='1'></param></syntax></command>

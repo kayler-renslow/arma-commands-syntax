@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlMapMouseOver' version='1.00' game='arma2' format='1'><syntax><return><array unbounded='f' order='0'><value type='STRING' order='0'></value><value type='OBJECT' order='1'><alt-types><t type='ARRAY'/><t type='STRING'/><t type='TASK'/></alt-types></value></array></return><param type='CONTROL' name='control' optional='f' order='1'>map control</param></syntax></command>

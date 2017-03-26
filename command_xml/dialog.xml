@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='dialog' version='1.78' game='ofpr' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if a dialog is open, false if not</value></return></syntax></command>

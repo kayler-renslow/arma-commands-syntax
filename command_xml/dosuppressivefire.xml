@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='doSuppressiveFire' version='1.60' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unitName' optional='f' order='0'><alt-types><t type='ARRAY'/></alt-types></param><param type='OBJECT' name='target' optional='f' order='1'><alt-types><t type='ARRAY'/></alt-types></param></syntax></command>

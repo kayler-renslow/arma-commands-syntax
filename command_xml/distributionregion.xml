@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='distributionRegion' version='1.05' game='arma' format='1'><syntax><return><value type='NUMBER' order='0'></value></return></syntax></command>

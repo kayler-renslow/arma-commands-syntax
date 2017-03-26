@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='date' version='1.00' game='arma' format='1'><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'>year</value><value type='NUMBER' order='1'>month</value><value type='NUMBER' order='2'>day</value><value type='NUMBER' order='3'>hour</value><value type='NUMBER' order='4'>minute</value></array></return></syntax></command>
