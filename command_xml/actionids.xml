@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='actionIDs' version='1.63' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'><value type='NUMBER' order='0'></value></array></return><param type='OBJECT' name='entity' optional='f' order='1'>entity with added user actions</param></syntax></command>

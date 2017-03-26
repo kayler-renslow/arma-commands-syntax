@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='addCuratorAddons' version='1.16' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='curatorObj' optional='f' order='0'>Curator module.</param><array unbounded='t' optional='f' order='1'><param type='STRING' name='addon' optional='f' order='0'></param></array></syntax></command>

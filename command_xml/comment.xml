@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='comment' version='1.85' game='ofpr' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='commentMsg' optional='f' order='1'>the comment that you'd like to write here</param></syntax></command>

@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='canFire' version='1.00' game='ofp' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if able to fire</value></return><param type='OBJECT' name='unitName' optional='f' order='1'></param></syntax></command>

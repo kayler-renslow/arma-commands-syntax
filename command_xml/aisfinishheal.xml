@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='AISFinishHeal' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='unit' optional='f' order='0'>wounded</param><param type='OBJECT' name='healer' optional='f' order='1'>medic</param><param type='BOOLEAN' name='healercanheal' optional='f' order='2'></param></array></syntax></command>

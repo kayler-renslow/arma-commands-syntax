@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='createMissionDisplay' version='1.08' game='arma' format='1'><syntax><return><value type='DISPLAY' order='0'></value></return><param type='DISPLAY' name='display' optional='f' order='0'></param><param type='STRING' name='string' optional='f' order='1'></param></syntax></command>

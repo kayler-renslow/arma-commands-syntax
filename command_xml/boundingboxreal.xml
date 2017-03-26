@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='boundingBoxReal' version='0.50' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><array unbounded='f' order='0'><value type='NUMBER' order='0'>x1</value><value type='NUMBER' order='1'>y1</value><value type='NUMBER' order='2'>z1</value></array><array unbounded='f' order='1'><value type='NUMBER' order='0'>x2</value><value type='NUMBER' order='1'>y2</value><value type='NUMBER' order='2'>z2</value></array></array></return><param type='OBJECT' name='obj' optional='f' order='1'></param></syntax></command>

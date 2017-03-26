@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='civilian' version='1.00' game='ofp' format='1'><syntax><return><value type='SIDE' order='0'></value></return></syntax></command>

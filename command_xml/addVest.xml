@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='addVest' version='0.50' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='0'></param><param type='STRING' name='type' optional='f' order='1'></param></syntax></command>

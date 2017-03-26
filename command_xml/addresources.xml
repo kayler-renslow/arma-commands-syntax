@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='addResources' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='TEAM_MEMBER' name='teamMember' optional='f' order='0'></param><array unbounded='t' optional='f' order='1'><param type='STRING' name='resource' optional='f' order='0'></param></array></syntax></command>

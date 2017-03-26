@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='addToRemainsCollector' version='1.32' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='t' optional='f' order='1'><param type='OBJECT' name='vehicleOrUnit' optional='f' order='0'></param></array></syntax></command>

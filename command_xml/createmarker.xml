@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='createMarker' version='1.00' game='arma' format='1'><syntax><return><value type='STRING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='name' optional='f' order='0'></param><param type='ARRAY' name='position' optional='f' order='1'>format position: Position3D, Position2D or Object<alt-types><t type='OBJECT'/></alt-types></param></array></syntax></command>

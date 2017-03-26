@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='camCommand' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='camera' optional='f' order='0'>object of type "camera" or "seagull"</param><param type='STRING' name='command' optional='f' order='1'>one of "manual on", "manual off", "inertia on", "inertia off", "landed" and "airborne" corresponding to the description above.</param></syntax></command>

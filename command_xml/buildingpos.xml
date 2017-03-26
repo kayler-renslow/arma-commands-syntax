@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='buildingPos' version='1.00' game='ofp' format='1'><syntax><return><array unbounded='t' order='0'></array></return><param type='OBJECT' name='building' optional='f' order='0'></param><param type='NUMBER' name='index' optional='f' order='1'>index of a specific position or -1 to return available all positions</param></syntax></command>

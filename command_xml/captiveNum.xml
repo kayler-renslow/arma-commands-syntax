@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='captiveNum' version='1.00' game='arma2' format='1'><syntax><return><value type='NUMBER' order='0'>anything from 0 to value set by setCaptive alt syntax. A non zero value means captive.</value></return><param type='OBJECT' name='unit' optional='f' order='1'></param></syntax></command>

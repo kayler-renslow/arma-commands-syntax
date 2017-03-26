@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='backpackSpaceFor' version='1.51' game='arma2oa' format='1'><syntax><return><array unbounded='t' order='0'></array></return><param type='OBJECT' name='backpack' optional='f' order='0'></param><param type='STRING' name='weaponName' optional='f' order='1'></param></syntax></command>

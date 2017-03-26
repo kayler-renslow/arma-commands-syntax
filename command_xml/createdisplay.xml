@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='createDisplay' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'><alt-types><t type='DISPLAY'/></alt-types></value></return><param type='DISPLAY' name='parent' optional='f' order='0'></param><param type='STRING' name='resourceName' optional='f' order='1'>custom display class defined in description.ext or existing display class from main config</param></syntax></command>

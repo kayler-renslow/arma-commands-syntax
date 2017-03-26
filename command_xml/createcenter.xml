@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='createCenter' version='1.00' game='arma' format='1'><syntax><return><value type='SIDE' order='0'></value></return><param type='SIDE' name='side' optional='f' order='1'></param></syntax></command>

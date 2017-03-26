@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='allMissionObjects' version='1.57' game='arma2oa' format='1'><syntax><return><array unbounded='t' order='0'><value type='OBJECT' order='0'></value></array></return><param type='STRING' name='type' optional='f' order='1'></param></syntax></command>

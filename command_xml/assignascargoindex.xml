@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='assignAsCargoIndex' version='1.01' game='TKOH' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='OBJECT' name='character' optional='f' order='0'>character to assign</param><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='vehicle' optional='f' order='0'>vehicle to assign to</param><param type='NUMBER' name='index' optional='f' order='1'>cargo / passenger index</param></array></syntax></command>

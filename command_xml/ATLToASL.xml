@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='ATLToASL' version='1.62' game='arma2oa' format='1'><syntax><return><value type='POSITION_ASL' order='0'></value></return><param type='POSITION_ATL' name='pos' optional='f' order='1'>position to convert</param></syntax></command>

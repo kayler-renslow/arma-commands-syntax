@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='aimPos' version='1.62' game='arma2oa' format='1'><syntax><return><array unbounded='false' order='0'><value type='NUMBER' order='0'>x</value><value type='NUMBER' order='1'>y</value><value type='NUMBER' order='2'>z</value></array></return><param type='OBJECT' name='object' optional='f' order='1'></param></syntax></command>

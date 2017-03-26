@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='createSimpleTask' version='1.00' game='arma2' format='1'><syntax><return><value type='TASK' order='0'>the new task</value></return><param type='OBJECT' name='person' optional='f' order='0'>Unit to add this new task</param><array unbounded='f' optional='f' order='1'><param type='STRING' name='name' optional='f' order='0'></param><param type='TASK' name='parentTask' optional='t' order='1'></param></array></syntax></command>

@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='airportSide' version='1.08' game='arma' format='1'><syntax><return><value type='SIDE' order='0'></value></return><param type='NUMBER' name='id' optional='f' order='1'></param></syntax><syntax><return><value type='SIDE' order='0'></value></return><param type='OBJECT' name='target' optional='f' order='1'></param></syntax></command>

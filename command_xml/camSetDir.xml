@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='camSetDir' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='camera' optional='f' order='0'>object of type "camera"</param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='x' optional='f' order='0'></param><param type='NUMBER' name='y' optional='f' order='1'></param><param type='NUMBER' name='z' optional='f' order='2'></param></array></syntax></command>

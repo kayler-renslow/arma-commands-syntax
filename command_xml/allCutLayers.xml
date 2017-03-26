@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='allCutLayers' version='1.57' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'><value type='STRING' order='0'></value></array></return></syntax></command>

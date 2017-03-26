@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='addWeaponGlobal' version='0.76' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='0'>unit or vehicle to add the weapon to</param><param type='STRING' name='weapon' optional='f' order='1'>weapon class name</param></syntax></command>

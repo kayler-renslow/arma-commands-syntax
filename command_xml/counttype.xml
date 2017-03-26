@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='countType' version='1.00' game='ofp' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='STRING' name='type' optional='f' order='0'>class type</param><param type='ARRAY' name='objects' optional='f' order='1'>array of Objects</param></syntax></command>

@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='actionName' version='0.50' game='arma3' format='1'>
-	<syntax>
-		<return>
-			<value type='STRING' order='0'></value>
-		</return>
-		<param type='STRING' name='action' optional='f' order='1'></param>
-	</syntax>
-</command>

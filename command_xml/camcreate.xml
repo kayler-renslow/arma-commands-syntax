@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='camCreate' version='1.00' game='ofp' format='1'><syntax><return><value type='OBJECT' order='0'>The newly created object is returned.</value></return><param type='STRING' name='type' optional='f' order='0'>camera type, one of the following: "camera" "seagull" "camconstruct" "camcurator" (Since Arma 3 Zeus) or any vehicle class suitable to be spawned with cam</param><param type='ARRAY' name='position' optional='f' order='1'>format Position - position to create the object at</param></syntax></command>

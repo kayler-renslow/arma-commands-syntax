@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='add3DENEventHandler' version='1.56' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='type' optional='f' order='0'></param><param type='CODE' name='code' optional='f' order='1'></param></array></syntax></command>

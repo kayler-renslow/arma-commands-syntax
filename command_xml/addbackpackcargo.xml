@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='addBackpackCargo' version='1.55' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'>vehicle to add the backpack to</param><array unbounded='f' optional='f' order='1'><param type='STRING' name='packClassName' optional='f' order='0'>backpack classname</param><param type='NUMBER' name='count' optional='f' order='1'>number of backpacks to add.</param></array></syntax></command>

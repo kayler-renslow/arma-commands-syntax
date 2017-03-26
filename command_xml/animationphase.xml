@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='animationPhase' version='1.75' game='ofpr' format='1'><syntax><return><value type='NUMBER' order='0'>range 0 (start point of the animation) to 1 (end point of the animation).</value></return><param type='OBJECT' name='object' optional='f' order='0'>building eg</param><param type='STRING' name='animationName' optional='f' order='1'>name of the animation. This is the class-name of the animation defined in the addon's config.cpp.</param></syntax></command>

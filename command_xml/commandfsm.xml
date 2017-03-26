@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='commandFSM' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unitName' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='STRING' name='fsmName' optional='f' order='0'></param><param type='ARRAY' name='position' optional='f' order='1'></param><param type='OBJECT' name='target' optional='f' order='2'></param></array></syntax></command>

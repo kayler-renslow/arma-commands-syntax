@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='camPrepareFovRange' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='camera' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='start' optional='f' order='0'></param><param type='NUMBER' name='end' optional='f' order='1'></param></array></syntax></command>

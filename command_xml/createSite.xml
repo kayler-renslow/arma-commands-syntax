@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='createSite' version='0.50' game='arma3' format='1'><deprecated/><syntax><return><value type='OBJECT' order='0'></value></return><param type='STRING' name='type' optional='f' order='0'></param><param type='POSITION' name='pos' optional='f' order='1'></param></syntax></command>

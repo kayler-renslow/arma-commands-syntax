@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='agent' version='1.00' game='arma2' format='1'><syntax><return><value type='OBJECT' order='0'></value></return><param type='TEAM_MEMBER' name='teamMember' optional='f' order='1'></param></syntax></command>

@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='behaviour' version='1.00' game='ofp' format='1'><syntax><return><value type='STRING' order='0'>One of "CARELESS", "SAFE", "AWARE", "COMBAT" and "STEALTH".</value></return><param type='OBJECT' name='unitName' optional='f' order='1'></param></syntax></command>

@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='apply' version='1.56' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>resulting array</value></return><param type='ARRAY' name='array' optional='f' order='0'>array of Anything</param><param type='CODE' name='code' optional='f' order='1'>code to be executed on each element of the array. Current element value is stored in variable _x</param></syntax></command>

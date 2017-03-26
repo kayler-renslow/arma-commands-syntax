@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<command name='addCuratorEditingArea' version='1.16' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='curatorObj' optional='f' order='0'>Curator module.</param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='editAreaID' optional='f' order='0'></param><param type='POSITION' name='position' optional='f' order='1'></param><param type='NUMBER' name='radius' optional='f' order='2'></param></array></syntax></command>
