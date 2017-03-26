@@ -60,6 +60,18 @@ The text value of this attribute will be non-user-friendly. The values are the "
 |Virtual Battlespace 1|vbs1|
 |Virtual Battlespace 2|vbs2|
 
+### Command deprecation
+The `deprecated` tag has no attributes and is a child of the `command` tag. If this tag exists, the command
+is deprecated (no longer supported by Bohemia).
+
+**Example**:
+```
+<command name='fakeCommand' version='1.56' game='arma3' format='1'>
+<deprecated/>
+...syntax tags, return tags, other things...
+</command>
+```
+
 ### Syntax Tag
 The `syntax` tag is a nested tag in the root tag `command`. This tag can occur multiple times. If there is more than one
 `syntax` tag, it means there is more than 1 syntax for the command. The `syntax` tag has no attributes.
