@@ -209,7 +209,7 @@ The return type below returns a Number, String, or Code.
 **Example 2**- multiple parameter types:
 The parameter below returns a Number, String, or Code.
 ```
-<param type='OBJECT' name='p' optional='f' order='0'>
+<param type='NUMBER' name='p' optional='f' order='0'>
     returns a number, code, or string
     <alt-types>
         <t type='STRING'/>
