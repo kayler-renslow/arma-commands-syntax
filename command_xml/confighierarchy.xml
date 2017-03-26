@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='configHierarchy' version='1.48' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'><value type='CONFIG' order='0'></value></array></return><param type='CONFIG' name='configClass' optional='f' order='1'>target config class</param></syntax></command>

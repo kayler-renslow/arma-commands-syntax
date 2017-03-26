@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='add3DENLayer' version='1.56' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>layer ID</value></return><param type='NUMBER' name='parentLayerID' optional='f' order='0'>ID of the parent layer. Use -1 to create the layer to root. No layer will be created when the ID doesn't point to a layer.</param><param type='STRING' name='name' optional='f' order='1'>layer display name</param></syntax></command>

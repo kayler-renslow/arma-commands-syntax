@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='activatedAddons' version='1.14' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'></array></return></syntax></command>

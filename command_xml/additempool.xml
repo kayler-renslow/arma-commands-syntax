@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='addItemPool' version='1.04' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='itemName' optional='f' order='0'>item class name</param><param type='NUMBER' name='count' optional='f' order='1'>number of items to add</param></array></syntax></command>

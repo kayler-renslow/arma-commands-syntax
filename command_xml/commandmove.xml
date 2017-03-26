@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='commandMove' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unitName' optional='f' order='0'><alt-types><t type='ARRAY'/></alt-types></param><param type='ARRAY' name='position' optional='f' order='1'>format Position</param></syntax></command>

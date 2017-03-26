@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='addMPEventHandler' version='1.55' game='arma2oa' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'>object to monitor</param><array unbounded='f' optional='f' order='1'><param type='STRING' name='type' optional='f' order='0'>event handler name</param><param type='STRING' name='expression' optional='f' order='1'>expression to execute<alt-types><t type='CODE'/></alt-types></param></array></syntax></command>

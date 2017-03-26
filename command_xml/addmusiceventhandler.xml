@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='addMusicEventHandler' version='0.50' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>event handler id</value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='type' optional='f' order='0'>"MusicStart" or "MusicStop"</param><param type='STRING' name='function' optional='f' order='1'>Passed params array: 0=CfgMusic class name, 1=event handler id<alt-types><t type='CODE'/></alt-types></param></array></syntax></command>

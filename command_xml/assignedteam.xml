@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='assignedTeam' version='1.60' game='arma2oa' format='1'><syntax><return><value type='STRING' order='0'><alt-types><t type='NOTHING'/></alt-types></value></return><param type='OBJECT' name='unitName' optional='f' order='1'></param></syntax></command>

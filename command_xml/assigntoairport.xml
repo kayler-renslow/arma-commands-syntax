@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='assignToAirport' version='1.08' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='plane' optional='f' order='0'>plane</param><param type='NUMBER' name='id' optional='f' order='1'>airport id</param></syntax><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='plane' optional='f' order='0'></param><param type='OBJECT' name='target' optional='f' order='1'></param></syntax></command>

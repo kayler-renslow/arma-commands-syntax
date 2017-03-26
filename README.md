@@ -18,8 +18,8 @@ no syntax available for the command. Please report any instances where a command
 
 The name of the file will always the command name in lower case with `.xml` concatenated. In Java code, it is `commandName.toLowerCase() + ".xml"`.
 
-* Example file name for command [`WFSideText`](https://community.bistudio.com/wiki/WFSideText): `wfsidetext.xml`
-* Example file name for command [`createVehicle`](https://community.bistudio.com/wiki/createVehicle): `createvehicle.xml`
+* File name for command [`WFSideText`](https://community.bistudio.com/wiki/WFSideText): `wfsidetext.xml`
+* File name for command [`createVehicle`](https://community.bistudio.com/wiki/createVehicle): `createvehicle.xml`
 
 #### XML Format
 All xml files will have something like `<?xml version='1.0' encoding='UTF-8'?>`. If you are using an XML parsing library,
@@ -80,7 +80,7 @@ the parameter is optional; this attribute will have a "t" (meaning true) or "f" 
 
 The text content of the `param` tag is a description about the parameter.
 
-The `optional` attribute is especially useful when the `param` tag is nested in an `array` tag. All optional parameters 
+The `optional` attribute is especially useful when the `param` tag is nested in an `array` tag. All optional parameters
 don't need to exist. It should **NEVER EVER EVER** be the case that an optional parameter follows a required one! It
 should always be something like as follows:
 ```
@@ -102,7 +102,7 @@ AND NOT LIKE THIS:
 
 For more information on the `array` tag, see Array Tag below.
 
-**Example** `param` tag:  
+**Example**- `param` tag:  
 `<param type='OBJECT' name='objectName' optional='f' order='0'>HI! I'm the description!</param>`
 Here, it is clear that the parameter is a prefix parameter since order=0.
 
@@ -112,17 +112,17 @@ The `return` tag describes the return **type** (see Types below) of the command 
 The `return` tag has 2 possible child tags: `array` and `value`. The `array` tag will have 2 attributes: `unbounded`
 and `order`. The `value` tag will have 2 attributes: `type` (see Types below), and `order`.
 
-The `value` tag can be alone in the `return` tag or will be nested in an `array` tag. The text content of the tag will be 
-a description about the value. This is very useful for when the `return` tag is an `array` and you need descriptions 
+The `value` tag can be alone in the `return` tag or will be nested in an `array` tag. The text content of the tag will be
+a description about the value. This is very useful for when the `return` tag is an `array` and you need descriptions
 about each index.
 
 Here are descriptions of the `value` attributes:
 tag's attributes:
 * `type`: The type of the value.
-* `order`: The order in which it occurs in an array if nested in an `array` tag. If the `value` tag is not nested in an 
+* `order`: The order in which it occurs in an array if nested in an `array` tag. If the `value` tag is not nested in an
 `array` tag, this attribute can be ignored.
 
-**Example** `value` tag:  
+**Example**- `value` tag:  
 `<value type='NOTHING' order='0'>Description...</value>`
 
 For more information on the `array` tag, see Array Tag below.
@@ -143,7 +143,7 @@ worry about. It is recommend to just assume the argument count is matched when d
 It is often the case that an `array` tag is unbounded and has a child element. This means that the command is returning an
 array of that type that is unbounded.
 
-**Example 1**: array tag nested in `return`:
+**Example 1**- array tag nested in `return`:
 ```
 <array unbounded='t' order='0'>
     <value type='NUMBER' order='0'></value>
@@ -152,7 +152,7 @@ array of that type that is unbounded.
 Here, the return type is an unbounded array of numbers (may be [], may be \[1, 2], may be \[3.6, 9.8,1455], who knows).
 
 
-**Example 2**: array tag nested in `syntax`:  
+**Example 2**- array tag nested in `syntax`:  
 ```
 <array unbounded='f' optional='f' order='1'>
     <param type='STRING' name='name1' optional='f' order='0'></param>
@@ -167,8 +167,8 @@ The `array` tag means the parameters/values are determined. The `ARRAY` type des
  `<array unbounded='t'><value type='ANYTHING'></array>` or the `param` tag equivalent. So, the `ARRAY` type is an
  unbounded array of ANYTHING. Any time you expect an array and no `array` tag is present, but a `value` or `param` tag
  type is `ARRAY`, just assume it's correct.
- 
- **Example**:  
+
+ **Example**- both `ARRAY` type and `array` tag in the same command:  
  The [apply]() command xml is as follows:
  ```
  <?xml version='1.0' encoding='UTF-8'?>
@@ -187,19 +187,53 @@ The `array` tag means the parameters/values are determined. The `ARRAY` type des
  You can see that it returns a `value` tag, but not an `array` tag. The command also takes in `ARRAY` prefix parameter.
  So, any time a type check happens, you could match either an `array` tag from a different command or an `ARRAY` type.
 
+### Alt-types Tag
+The `alt-types` tag is meant to provide multiple return or parameter types. There are `t` tags inside
+the `alt-types` tag, which the `type` attribute of each `t` tag describes the alternate type.
+
+The `alt-types` tag is not guaranteed to exist. If it doesn't exist, there is only 1 type for the return value or parameter.
+
+**Example 1**- multiple return types:
+The return type below returns a Number, String, or Code.
+```
+<return>
+    <value type='NUMBER' order='0'>
+        returns a number, code, or string
+        <alt-types>
+            <t type='STRING'/>
+            <t type='CODE'/>
+        </alt-types>
+    </value>
+</return>
+```
+**Example 2**- multiple parameter types:
+The parameter below returns a Number, String, or Code.
+```
+<param type='OBJECT' name='p' optional='f' order='0'>
+    returns a number, code, or string
+    <alt-types>
+        <t type='STRING'/>
+        <t type='CODE'/>
+    </alt-types>
+</param>
+```
+
+
 ### Types
 This list comes from primarily [here](https://community.bistudio.com/wiki/Data_Types).
 
+It is unfortunate that Arma 3 has such a poor standard for types. Some types don't actually exist
+and are instead a macro for defining an array format. Any input into these types is much appreciated!
+
 Here are all the types possible:
 
-| Type name| Presentable name|Notes|
+| Type name| Presentable name | Notes|
 |---|---|---|
-|ANYTHING|Anything|Literally accept any value.|
-|ARRAY|Array|
-|ARRAY_OF_EDEN_ENTITIES|Array of Eden Entities||
+|ANYTHING|Anything|Literally accept any type. Can accept Boolean, Code, anything. This is basically shorthand for an `alt-types` tag filled with all available types.|
+|ARRAY|Array|Used for when the elements in the array can't be determined.|
+|ARRAY_OF_EDEN_ENTITIES|Array of Eden Entities|[Wiki article](https://community.bistudio.com/wiki/Array_of_Eden_Entities)|
 |BOOLEAN|Boolean|
 |CODE|Code|
-|CODE_STRING|Code String|
 |CONFIG|Config|
 |CONTROL|Control|
 |DIARY_RECORD|Diary Record|
@@ -210,9 +244,9 @@ Here are all the types possible:
 |LOCATION|Location|
 |NAMESPACE|Namespace|
 |NET_OBJECT|NetObject|
-|NIL|nil|
+|NIL|nil|Differs in nothing as this is an assignable value, where nothing is no return type/value.|
 |NUMBER|Number|
-|NOTHING|Nothing|
+|NOTHING|Nothing|No type/value.|
 |OBJECT|Object|
 |OBJECT_RTD|ObjectRTD|
 |ORIENT|Orient|

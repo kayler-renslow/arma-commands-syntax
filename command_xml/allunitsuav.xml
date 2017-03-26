@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='allUnitsUAV' version='0.76' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'><value type='OBJECT' order='0'></value></array></return></syntax></command>

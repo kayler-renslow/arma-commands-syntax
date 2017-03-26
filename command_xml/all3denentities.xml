@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='all3DENEntities' version='1.56' game='arma3' format='1'><syntax><return><value type='ARRAY_OF_EDEN_ENTITIES' order='0'></value></return></syntax></command>
