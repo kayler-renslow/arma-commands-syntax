@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='compile' version='1.00' game='arma' format='1'><syntax><return><value type='CODE' order='0'></value></return><param type='STRING' name='expression' optional='f' order='1'></param></syntax></command>

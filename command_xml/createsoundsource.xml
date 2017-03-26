@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='createSoundSource' version='1.00' game='arma' format='1'><syntax><return><value type='OBJECT' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='type' optional='f' order='0'></param><param type='POSITION' name='position' optional='f' order='1'></param><param type='ARRAY' name='markers' optional='f' order='2'></param><param type='NUMBER' name='placement' optional='f' order='3'>radius</param></array></syntax></command>

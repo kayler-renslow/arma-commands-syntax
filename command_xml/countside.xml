@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='countSide' version='1.00' game='ofp' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='SIDE' name='side' optional='f' order='0'></param><array unbounded='t' optional='f' order='1'><param type='OBJECT' name='unit' optional='f' order='0'><alt-types><t type='GROUP'/></alt-types></param></array></syntax></command>

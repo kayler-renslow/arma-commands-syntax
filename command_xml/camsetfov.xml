@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='camSetFov' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='camera' optional='f' order='0'>object of type "camera"</param><param type='NUMBER' name='level' optional='f' order='1'>zoom level, range 0.01 to 2 (see description above)</param></syntax></command>

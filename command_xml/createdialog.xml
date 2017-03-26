@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='createDialog' version='1.5' game='ofp' format='1'><syntax><return><value type='BOOLEAN' order='0'>true when the dialog was created successfully</value></return><param type='STRING' name='dialogName' optional='f' order='1'>class name used in the description.ext / resource.cpp</param></syntax></command>

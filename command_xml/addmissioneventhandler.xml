@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='addMissionEventHandler' version='0.50' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>The index of the currently added mission event handler is returned.</value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='type' optional='f' order='0'></param><param type='CODE' name='command' optional='f' order='1'>By default executed in missionNamespace<alt-types><t type='STRING'/></alt-types></param></array></syntax></command>

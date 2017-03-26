@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='canVehicleCargo' version='1.62' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='BOOLEAN' order='0'>Possible to load cargo inside vehicle</value><value type='BOOLEAN' order='1'>possible to load cargo into empty vehicle</value></array></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><param type='OBJECT' name='cargo' optional='f' order='1'></param></syntax></command>

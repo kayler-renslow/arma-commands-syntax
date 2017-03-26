@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='configClasses' version='1.24' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'><value type='CONFIG' order='0'></value></array></return><param type='STRING' name='condition' optional='f' order='0'></param><param type='CONFIG' name='config' optional='f' order='1'></param></syntax></command>
