@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='environmentEnabled' version='1.68' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='BOOLEAN' order='0'></value><value type='BOOLEAN' order='1'></value></array></return></syntax></command>

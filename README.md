@@ -153,18 +153,30 @@ argument count (a command may require 5 prefix arguments and the array may only 
 worry about. It is recommend to just assume the argument count is matched when dealing with unbounded arrays.
 
 It is often the case that an `array` tag is unbounded and has a child element. This means that the command is returning an
-array of that type that is unbounded.
+array of that type that is unbounded. If the `array` tag has more than one child, the last child is the unbounded element.
 
-**Example 1**- array tag nested in `return`:
+**Example 1**- `array1` tag nested in `return`:
 ```
 <array unbounded='t' order='0'>
     <value type='NUMBER' order='0'></value>
 </array>
 ```
-Here, the return type is an unbounded array of numbers (may be [], may be \[1, 2], may be \[3.6, 9.8,1455], who knows).
+Here, the return type is an unbounded array of numbers (may be `[]`, may be `[1, 2]`, may be `[3.6, 9.8,1455]`, who knows).
 
+**Example 2**- different unbounded:
+```
+<array unbounded='t' order='0'>
+    <value type='NUMBER' order='0'></value>
+    <value type='STRING' order='1'></value>
+</array>
+```
+Here, the return type is an unbounded array of numbers and strings. The number is guaranteed to exist, however the string isn't.
 
-**Example 2**- array tag nested in `syntax`:  
+Possible values: `[1]`,`[1, "hello"]`, `[3.6,"hello","hello2"]`, etc.
+
+**Wrong** values: `[]`, `["hi"]`,`[0,0,"string"]` ,etc.
+
+**Example 3**- array tag nested in `syntax`:  
 ```
 <array unbounded='f' optional='f' order='1'>
     <param type='STRING' name='name1' optional='f' order='0'></param>
@@ -234,8 +246,7 @@ The parameter below returns a Number, String, or Code.
 ### Types
 This list comes from primarily [here](https://community.bistudio.com/wiki/Data_Types).
 
-It is unfortunate that Arma 3 has such a poor standard for types. Some types don't actually exist
-and are instead a macro for defining an array format. Any input into these types is much appreciated!
+Any input into these types is much appreciated!
 
 Here are all the types possible:
 
@@ -243,7 +254,6 @@ Here are all the types possible:
 |---|---|---|
 |ANYTHING|Anything|Literally accept any type. Can accept Boolean, Code, anything. This is basically shorthand for an `alt-types` tag filled with all available types.|
 |ARRAY|Array|Used for when the elements in the array can't be determined.|
-|ARRAY_OF_EDEN_ENTITIES|Array of Eden Entities|[Wiki article](https://community.bistudio.com/wiki/Array_of_Eden_Entities)|
 |BOOLEAN|Boolean|
 |CODE|Code|
 |CONFIG|Config|
@@ -253,7 +263,7 @@ Here are all the types possible:
 |EDEN_ENTITY|Eden Entity|
 |EXCEPTION_TYPE|Exception Type|
 |GROUP|Group|
-|LOCATION|Location|
+|LOCATION|Location|[Wiki article](https://community.bistudio.com/wiki/Location)|
 |NAMESPACE|Namespace|
 |NET_OBJECT|NetObject|
 |NIL|nil|Differs in nothing as this is an assignable value, where nothing is no return type/value.|
@@ -263,17 +273,6 @@ Here are all the types possible:
 |OBJECT_RTD|ObjectRTD|
 |ORIENT|Orient|
 |ORIENTATION|Orientation|
-|POSITION|Position|
-|POSITION_2D|Position2D|
-|POSITION_3D|Position3D|
-|POSITION_ASL|PositionASL|
-|POSITION_ASLW|PositionASLW|
-|POSITION_ATL|PositionATL|
-|POSITION_AGL|PositionAGL|
-|POSITION_AGLS|PositionAGLS|
-|POSITION_WORLD|PositionWorld|
-|POSITION_RELATIVE|PositionRelative|
-|POSITION_CONFIG|PositionConfig|
 |SCRIPT_HANDLE|Script (Handle)|
 |SIDE|Side|
 |STRING|String|
@@ -284,13 +283,34 @@ Here are all the types possible:
 |TEAM_MEMBER|Team Member|
 |TRANS|Trans|
 |TRANSFORMATION|Transformation|
-|VECTOR|Vector|
 |VOID|Void|
-|.....|............|
+|IF|If Type|Created from `if` command. Used with `do` command.|
 |FOR|For Type|Created from `for` command. Used with `do` command.|
 |SWITCH|Switch Type|Created from `switch` command. Used with `do` command.|
 |WHILE|While Type|Created from `while` command. Used with `do` command.|
 |WITH|With Type|Created from `with` command. Used with `do` command.|
+
+#### Types that are just shorthand for an array:
+See [this wiki article](https://community.bistudio.com/wiki/Position) for more information on positions.
+
+A note on the `POSITION` type: the wiki is unclear of its usage. The command XML is guaranteed to follow the format listed below.
+
+| Type name| Presentable name | Array Format |Notes|
+|---|---|---|---|
+|COLOR|Color|[r:*Number*, g:*Number*, b:*Number*, a:*Number*]|[Wiki article](https://community.bistudio.com/wiki/Color)|
+|ARRAY_OF_EDEN_ENTITIES|Array of Eden Entities|See wiki article.|[Wiki article](https://community.bistudio.com/wiki/Array_of_Eden_Entities)|
+|POSITION|Position|[x:*Number*, y:*Number*, z:*Number*?]|? means z is optional|
+|POSITION_2D|Position 2D|[x:*Number*, y:*Number*]|
+|POSITION_3D|Position 3D|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_ASL|Position ASL|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_ASLW|Position ASLW|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_ATL|Position ATL|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_AGL|Position AGL|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_AGLS|Position AGLS|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_WORLD|Position World|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_RELATIVE|Position Relative|[x:*Number*, y:*Number*, z:*Number*]|
+|POSITION_CONFIG|Position Config|[x:*Number*, z:*Number*, y:*Number*]|Notice that z and y are swapped|
+|VECTOR_3D|Vector 3D|[x:*Number*, y:*Number*, z:*Number*]|This type exists to clarify that it is a vector rather than a static position. From a type checking standpoint, it makes no difference.|
 
 ## Example Syntax 1 - Basic Command
 This is the xml for [abs](https://community.bistudio.com/wiki/abs).

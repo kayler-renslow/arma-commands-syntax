@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<command name='ctrlModelDirAndUp' version='1.32' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>format [vectorDir, vectorUp]</value></return><param type='CONTROL' name='control' optional='f' order='1'>3D control</param></syntax></command>
+<command name='ctrlModelDirAndUp' version='1.32' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='VECTOR_3D' order='0'>vectorDir</value><value type='VECTOR_3D' order='1'>vectorUp</value></array></return><param type='CONTROL' name='control' optional='f' order='1'>3D control</param></syntax></command>

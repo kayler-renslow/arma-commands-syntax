@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='emptyPositions' version='1.00' game='arma' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><param type='STRING' name='position' optional='f' order='1'></param></syntax></command>

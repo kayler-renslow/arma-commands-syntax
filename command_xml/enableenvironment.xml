@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='enableEnvironment' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='BOOLEAN' name='enabled' optional='f' order='1'></param></syntax><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='BOOLEAN' name='ambientLife' optional='f' order='0'></param><param type='BOOLEAN' name='ambientSound' optional='f' order='1'></param></array></syntax></command>

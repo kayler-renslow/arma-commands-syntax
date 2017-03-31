@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='estimatedTimeLeft' version='1.34' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='seconds' optional='f' order='1'>estimated time in seconds (7200 sec max, since Arma 3 v1.69 the limit is 36000 seconds).</param></syntax></command>

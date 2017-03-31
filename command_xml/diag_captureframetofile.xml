@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='diag_captureFrameToFile' version='1.16' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='frame' optional='f' order='1'>next n-th frame to be captured</param></syntax></command>

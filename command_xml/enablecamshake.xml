@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='enableCamShake' version='1.51' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='BOOLEAN' name='value' optional='f' order='1'>If true, then shake effects are visible</param></syntax></command>

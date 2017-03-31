@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='enableIRLasers' version='1.51' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='thing' optional='f' order='0'>the unit or the group allowed to use IR lasers<alt-types><t type='GROUP'/></alt-types></param><param type='BOOLEAN' name='value' optional='f' order='1'>true/false</param></syntax></command>

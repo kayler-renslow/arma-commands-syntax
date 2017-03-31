@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='enableSaving' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='BOOLEAN' name='enable' optional='f' order='1'></param></syntax><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='BOOLEAN' name='enable' optional='f' order='0'>allow manual saving</param><param type='BOOLEAN' name='save' optional='f' order='1'>create autosave</param></array></syntax></command>

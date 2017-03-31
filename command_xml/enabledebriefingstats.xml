@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='enableDebriefingStats' version='1.00' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='left' optional='f' order='0'></param><param type='NUMBER' name='top' optional='f' order='1'></param><param type='NUMBER' name='width' optional='f' order='2'></param><param type='NUMBER' name='height' optional='f' order='3'></param></array></syntax></command>

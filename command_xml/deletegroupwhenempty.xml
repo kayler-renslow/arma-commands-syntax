@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='deleteGroupWhenEmpty' version='1.68' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='GROUP' name='group' optional='f' order='0'></param><param type='BOOLEAN' name='delete' optional='f' order='1'>true to mark for auto-deletion</param></syntax></command>

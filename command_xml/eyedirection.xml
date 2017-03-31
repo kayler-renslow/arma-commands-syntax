@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='eyeDirection' version='0.50' game='arma3' format='1'><syntax><return><value type='VECTOR_3D' order='0'>3D Vector</value></return><param type='OBJECT' name='unit' optional='f' order='1'></param></syntax></command>
