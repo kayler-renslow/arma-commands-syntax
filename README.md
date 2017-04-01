@@ -93,7 +93,7 @@ the parameter is optional; this attribute will have a "t" (meaning true) or "f" 
 The text content of the `param` tag is a description about the parameter.
 
 The `optional` attribute is especially useful when the `param` tag is nested in an `array` tag. All optional parameters
-don't need to exist. It should **NEVER EVER EVER** be the case that an optional parameter follows a required one! It
+don't need to exist. It should **NEVER EVER EVER** be the case that a required parameter follows an optional one! It
 should always be something like as follows:
 ```
 [required, required]
