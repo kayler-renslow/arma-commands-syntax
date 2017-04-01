@@ -116,10 +116,10 @@ For more information on the `array` tag, see Array Tag below.
 
 **Example**- `param` tag:  
 `<param type='OBJECT' name='objectName' optional='f' order='0'>HI! I'm the description!</param>`
-Here, it is clear that the parameter is a prefix parameter since order=0.
+Here, it is clear that the parameter is a prefix parameter since order=0 or is the first element of an array.
 
 ### Return Tag
-The `return` tag describes the return **type** (see Types below) of the command and the tag itself has no attributes.
+The `return` tag describes the return type (see Types below) of the command and the tag itself has no attributes.
 
 The `return` tag has 2 possible child tags: `array` and `value`. The `array` tag will have 2 attributes: `unbounded`
 and `order`. The `value` tag will have 2 attributes: `type` (see Types below), and `order`.
@@ -128,8 +128,7 @@ The `value` tag can be alone in the `return` tag or will be nested in an `array`
 a description about the value. This is very useful for when the `return` tag is an `array` and you need descriptions
 about each index.
 
-Here are descriptions of the `value` attributes:
-tag's attributes:
+Here are descriptions of the `value` tag's attributes:
 * `type`: The type of the value.
 * `order`: The order in which it occurs in an array if nested in an `array` tag. If the `value` tag is not nested in an
 `array` tag, this attribute can be ignored.
