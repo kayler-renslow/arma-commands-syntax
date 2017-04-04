@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='formationPosition' version='1.00' game='arma' format='1'><syntax><return><value type='POSITION_3D' order='0'>format Position</value></return><param type='OBJECT' name='person' optional='f' order='1'></param></syntax></command>

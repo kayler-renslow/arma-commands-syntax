@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='fogParams' version='1.00' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'>fogValue</value><value type='NUMBER' order='1'>fogDecay</value><value type='NUMBER' order='2'>fogBase</value></array></return></syntax></command>

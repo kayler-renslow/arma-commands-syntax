@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='get3DENIconsVisible' version='1.56' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='BOOLEAN' order='0'>showMap</value><value type='BOOLEAN' order='1'>showScene</value></array></return></syntax></command>

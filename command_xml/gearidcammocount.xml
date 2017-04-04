@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='gearIDCAmmoCount' version='1.62' game='arma2oa' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='NUMBER' name='idc' optional='f' order='1'>idc of control type CT_ITEMSLOT 103</param></syntax></command>

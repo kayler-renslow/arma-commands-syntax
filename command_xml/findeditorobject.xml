@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='findEditorObject' version='1.00' game='arma2' format='1'><syntax><return><value type='STRING' order='0'></value></return><param type='CONTROL' name='map' optional='f' order='0'></param><param type='ANYTHING' name='value' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='get3DENMouseOver' version='1.56' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='STRING' order='0'>type</value><value type='EDEN_ENTITY' order='1'></value></array></return></syntax></command>

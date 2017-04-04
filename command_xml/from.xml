@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='from' version='1.00' game='arma' format='1'><syntax><return><value type='FOR' order='0'></value></return><param type='FOR' name='for' optional='f' order='0'></param><param type='NUMBER' name='b' optional='f' order='1'></param></syntax></command>

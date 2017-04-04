@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='get3DENMissionAttribute' version='1.56' game='arma3' format='1'><syntax><return><value type='ANYTHING' order='0'></value></return><param type='STRING' name='section' optional='f' order='0'>attribute section</param><param type='STRING' name='class' optional='f' order='1'>attribute name</param></syntax></command>

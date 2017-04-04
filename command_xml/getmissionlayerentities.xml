@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getMissionLayerEntities' version='1.56' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'></value></return><param type='STRING' name='layerName' optional='f' order='1'>layer name in the editor. If multiple layers with the same name are present in the scenario, the first found one is used.</param></syntax></command>

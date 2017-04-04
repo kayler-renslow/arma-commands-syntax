@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getHitPointDamage' version='1.00' game='TKOH' format='1'><syntax><return><value type='NUMBER' order='0'><alt-types><t type='NOTHING'/></alt-types></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'>vehicle to be queried</param><param type='STRING' name='hitPointName' optional='f' order='1'>name of the Hit Point class</param></syntax></command>

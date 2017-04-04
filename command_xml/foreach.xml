@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='forEach' version='1.00' game='ofp' format='1'><syntax><return><value type='ANYTHING' order='0'>will return the value of last executed statement</value></return><param type='STRING' name='script' optional='f' order='0'><alt-types><t type='CODE'/></alt-types></param><param type='ARRAY' name='array' optional='f' order='1'></param></syntax></command>

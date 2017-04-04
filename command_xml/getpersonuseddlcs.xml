@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getPersonUsedDLCs' version='1.36' game='arma3' format='1'><deprecated/><syntax><return><value type='ARRAY' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='1'></param></syntax></command>

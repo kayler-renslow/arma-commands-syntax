@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getObjectArgument' version='1.00' game='arma2' format='1'><syntax><return><value type='STRING' order='0'></value></return><param type='CONTROL' name='map' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='object' optional='f' order='0'></param><param type='STRING' name='argument' optional='f' order='1'></param></array></syntax></command>

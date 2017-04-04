@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getMousePosition' version='1.54' game='arma3' format='1'><syntax><return><value type='POSITION_2D' order='0'>position in format [x, y], where x and y are UI coordinates</value></return></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getObjectDLC' version='1.36' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'><alt-types><t type='NOTHING'/></alt-types></value></return><param type='OBJECT' name='obj' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='flagOwner' version='1.00' game='ofp' format='1'><syntax><return><value type='OBJECT' order='0'>The person or vehicle that owns the flag is returned. If used on anything else than a flag, the returned value is objNull. If the flag is on its pole, the return value is NULL. If the flagowner is dead, the return value is the name of the soldier model.</value></return><param type='OBJECT' name='flag' optional='f' order='1'></param></syntax></command>

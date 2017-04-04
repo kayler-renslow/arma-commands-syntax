@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getMissionDLCs' version='1.62' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>list of DLCs detected for the mission</value></return></syntax></command>

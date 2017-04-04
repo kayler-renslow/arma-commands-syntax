@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='gearSlotAmmoCount' version='1.62' game='arma2oa' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='1'>CT_ITEMSLOT 103</param></syntax></command>

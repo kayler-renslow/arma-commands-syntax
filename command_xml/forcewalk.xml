@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='forceWalk' version='1.51' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='0'>the unit forced to walk</param><param type='BOOLEAN' name='value' optional='f' order='1'>true/false</param></syntax></command>

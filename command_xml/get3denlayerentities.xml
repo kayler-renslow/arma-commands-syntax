@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='get3DENLayerEntities' version='1.56' game='arma3' format='1'><syntax><return><value type='ARRAY_OF_EDEN_ENTITIES' order='0'></value></return><param type='NUMBER' name='layerID' optional='f' order='1'>layer ID as returned by add3DENLayer command</param></syntax></command>

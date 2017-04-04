@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getClientState' version='1.08' game='arma3' format='1'><syntax><return><value type='STRING' order='0'>Client state (see table above)</value></return></syntax></command>

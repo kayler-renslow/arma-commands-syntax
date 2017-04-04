@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='get3DENEntity' version='1.56' game='arma3' format='1'><syntax><return><value type='EDEN_ENTITY' order='0'></value></return><param type='NUMBER' name='id' optional='f' order='1'>entity ID</param></syntax></command>

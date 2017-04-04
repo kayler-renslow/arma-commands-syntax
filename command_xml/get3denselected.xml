@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='get3DENSelected' version='1.56' game='arma3' format='1'><syntax><return><value type='ARRAY_OF_EDEN_ENTITIES' order='0'></value></return><param type='STRING' name='type' optional='f' order='1'>entity type, can be: "" "object" "group" "trigger" "logic" "waypoint" "marker" "layer" "comment"</param></syntax></command>

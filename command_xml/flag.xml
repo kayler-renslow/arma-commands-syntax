@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='flag' version='1.00' game='ofp' format='1'><syntax><return><value type='OBJECT' order='0'>Flag pole object the flag belongs to. If the unit carries no flag, objNull is returned.</value></return><param type='OBJECT' name='unit' optional='f' order='1'></param></syntax></command>

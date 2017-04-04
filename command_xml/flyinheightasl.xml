@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='flyInHeightASL' version='1.62' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='aircraft' optional='f' order='0'>helicopter, airplane</param><param type='ARRAY' name='params' optional='f' order='1'>height - careless/safe/aware, height - combat, height - stealth</param></syntax></command>

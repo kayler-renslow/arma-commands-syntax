@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='for' version='1.00' game='arma' format='1'><syntax><return><value type='FOR' order='0'></value></return><param type='STRING' name='arg' optional='f' order='1'>When using String it declares the index variable name like "_myVar" and when using Array it must be a 3-dimensional Array of Code<alt-types><t type='ARRAY'/></alt-types></param></syntax></command>

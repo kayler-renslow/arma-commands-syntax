@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getContainerMaxLoad' version='1.62' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>load value, -1 if not available.</value></return><param type='STRING' name='containerClass' optional='f' order='1'>uniform, vest or backpack class</param></syntax></command>
