@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='hint' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='text' optional='f' order='1'>the message to write on the screen may consist of any characters. \n indicates a line break.<alt-types><t type='STRUCTURED_TEXT'/></alt-types></param></syntax></command>

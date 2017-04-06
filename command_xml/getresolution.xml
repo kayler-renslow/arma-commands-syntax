@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getResolution' version='1.55' game='arma2oa' format='1'><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'>width</value><value type='NUMBER' order='1'>height</value><value type='NUMBER' order='2'>2d viewport width</value><value type='NUMBER' order='3'>2d viewport height</value><value type='NUMBER' order='4'>aspect ratio</value><value type='NUMBER' order='5'>ui scale</value></array></return></syntax></command>

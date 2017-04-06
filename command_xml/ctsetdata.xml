@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctSetData' version='1.69' game='arma3dev' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='index' optional='f' order='0'></param><param type='STRING' name='data' optional='f' order='1'></param></array></syntax></command>

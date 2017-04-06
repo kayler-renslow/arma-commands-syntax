@@ -61,13 +61,25 @@ The text value of this attribute will be non-user-friendly. The values are the "
 |Virtual Battlespace 2|vbs2|
 
 ### Command deprecation
-The `deprecated` tag has no attributes and is a child of the `command` tag. If this tag exists, the command
+The `deprecated` tag has no attributes and is a child of the `command` tag. If this tag exists (not guaranteed to exist), the command
 is deprecated (no longer supported by Bohemia).
 
 **Example**:
 ```
 <command name='fakeCommand' version='1.56' game='arma3' format='1'>
 <deprecated/>
+...syntax tags, return tags, other things...
+</command>
+```
+
+### Command Uncertainty
+The `uncertain` tag has no attributes and is a child of the `command` tag. If this tag exists (not guaranteed to exist), the return type or 
+at least 1 syntax is uncertain to be correct and has been estimated (this usually happens with very poor documentation).
+
+**Example**:
+```
+<command name='fakeCommand' version='1.56' game='arma3' format='1'>
+<uncertain/>
 ...syntax tags, return tags, other things...
 </command>
 ```

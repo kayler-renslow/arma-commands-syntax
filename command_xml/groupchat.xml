@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='groupChat' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unitName' optional='f' order='0'>unit transmitting message</param><param type='STRING' name='chatText' optional='f' order='1'>message to transmit</param></syntax></command>

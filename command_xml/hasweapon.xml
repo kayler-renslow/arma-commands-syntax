@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='hasWeapon' version='1.00' game='ofp' format='1'><syntax><return><value type='BOOLEAN' order='0'>Returns true if the unit has the weapon, false if not.</value></return><param type='OBJECT' name='unitName' optional='f' order='0'></param><param type='STRING' name='weaponName' optional='f' order='1'>the name of the weapon to check for.</param></syntax></command>

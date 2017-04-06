@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='hostMission' version='1.55' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='CONFIG' name='pConfig' optional='f' order='0'></param><param type='DISPLAY' name='pDisplay' optional='f' order='1'></param></array></syntax></command>

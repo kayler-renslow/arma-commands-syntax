@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getPilotCameraPosition' version='1.64' game='arma3' format='1'><syntax><return><value type='POSITION_RELATIVE' order='0'>[x,y,z] offset relative to the model centre, format PositionRelative. Returns [0,0,0] if object has no pilotCamera.</value></return><param type='OBJECT' name='object' optional='f' order='1'></param></syntax></command>

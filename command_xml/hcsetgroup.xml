@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='hcSetGroup' version='1.00' game='arma2' format='1'><uncertain/><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='GROUP' name='group' optional='f' order='0'></param><param type='STRING' name='groupName' optional='t' order='1'></param><param type='ANYTHING' name='team' optional='t' order='2'></param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='handsHit' version='1.00' game='ofp' format='1'><syntax><return><value type='NUMBER' order='0'>If the hands aren't damaged, the returned value is 0. If the hands are hit or the unit is dead, the returned value is 1.</value></return><param type='OBJECT' name='unitName' optional='f' order='1'></param></syntax></command>

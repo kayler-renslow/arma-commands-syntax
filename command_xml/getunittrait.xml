@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getUnitTrait' version='1.58' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>Value of the trait<alt-types><t type='BOOLEAN'/></alt-types></value></return><param type='OBJECT' name='unit' optional='f' order='0'></param><param type='STRING' name='skill_name' optional='f' order='1'>Name of the skill</param></syntax></command>

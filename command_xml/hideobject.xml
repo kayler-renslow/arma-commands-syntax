@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='hideObject' version='1.06' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='1'></param></syntax><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'></param><param type='BOOLEAN' name='hidden' optional='f' order='1'>true-&gt;hidden; false-&gt;visible</param></syntax></command>

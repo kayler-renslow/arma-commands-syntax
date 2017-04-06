@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getRelDir' version='1.56' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'><alt-types><t type='POSITION_2D'/><t type='POSITION_3D'/></alt-types></param><param type='OBJECT' name='position' optional='f' order='1'></param></syntax></command>

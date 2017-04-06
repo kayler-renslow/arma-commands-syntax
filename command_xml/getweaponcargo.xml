@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getWeaponCargo' version='1.54' game='arma2oa' format='1'><syntax><return><value type='ARRAY' order='0'>format [all_types_array, all_counts_array]. Eg: [["a", "b"], [3, 2]]</value></return><param type='OBJECT' name='object' optional='f' order='1'>object to check</param></syntax></command>

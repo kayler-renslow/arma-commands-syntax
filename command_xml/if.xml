@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='if' version='1.85' game='ofpr' format='1'><syntax><return><value type='IF' order='0'>Predicate which will execute 1st or 2nd option when used. This predicate is used in then or exitWith commands.</value></return><param type='BOOLEAN' name='condition' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getPosASLVisual' version='1.32' game='arma3' format='1'><syntax><return><value type='POSITION_ASL' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='1'>name of the object</param></syntax></command>

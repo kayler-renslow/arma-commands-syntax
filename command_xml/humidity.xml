@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='humidity' version='0.50' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return></syntax></command>
