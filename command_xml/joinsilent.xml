@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='joinSilent' version='1.06' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='t' optional='f' order='0'><param type='OBJECT' name='unit' optional='f' order='0'></param></array><param type='OBJECT' name='group' optional='f' order='1'><alt-types><t type='GROUP'/></alt-types></param></syntax></command>

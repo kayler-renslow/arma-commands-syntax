@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='isObjectHidden' version='1.48' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if hidden, false if visible</value></return><param type='OBJECT' name='object' optional='f' order='1'>object to test</param></syntax></command>

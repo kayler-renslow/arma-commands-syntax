@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='leader' version='1.00' game='ofp' format='1'><syntax><return><value type='OBJECT' order='0'></value></return><param type='OBJECT' name='unitName' optional='f' order='1'><alt-types><t type='GROUP'/></alt-types></param></syntax></command>

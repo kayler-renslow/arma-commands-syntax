@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='independent' version='0.50' game='arma3' format='1'><syntax><return><value type='SIDE' order='0'></value></return></syntax></command>

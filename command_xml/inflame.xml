@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='inflame' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='fireplace' optional='f' order='0'></param><param type='BOOLEAN' name='burn' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='localize' version='1.00' game='ofp' format='1'><syntax><return><value type='STRING' order='0'>text found in corresponding entry in stringtable file</value></return><param type='STRING' name='stringName' optional='f' order='1'></param></syntax></command>

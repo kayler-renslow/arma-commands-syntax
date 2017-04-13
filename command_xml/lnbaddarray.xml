@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='lnbAddArray' version='1.00' game='arma2' format='1'><syntax><return><value type='NUMBER' order='0'>index</value></return><array unbounded='f' optional='f' order='1'><param type='ANYTHING' name='idc' optional='f' order='0'></param><param type='ARRAY' name='data' optional='f' order='1'></param></array></syntax></command>

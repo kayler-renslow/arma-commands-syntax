@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='isVehicleCargo' version='1.62' game='arma3' format='1'><syntax><return><value type='OBJECT' order='0'>returns the transporting vehicle of a vehicle in cargo, if the vehicle is not being transported it will return objNull</value></return><param type='OBJECT' name='vehicle' optional='f' order='1'></param></syntax></command>

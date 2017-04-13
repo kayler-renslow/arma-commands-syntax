@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='inputAction' version='1.00' game='arma2' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='STRING' name='name' optional='f' order='1'>name of the action</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='locked' version='1.00' game='ofp' format='1'><syntax><return><value type='NUMBER' order='0'>since Arma 3: 0 - Unlocked; 1 - Default; 2 - Locked; 3 - Locked for player; -1 - vehicle is null. Older games will return Boolean</value></return><param type='OBJECT' name='vehicle' optional='f' order='1'></param></syntax></command>

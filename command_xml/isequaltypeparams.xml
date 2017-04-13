@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='isEqualTypeParams' version='1.54' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='ANYTHING' name='input' optional='f' order='0'>could be value of any type, but only type Array will be validated</param><param type='ARRAY' name='template' optional='f' order='1'>array of expected types</param></syntax></command>

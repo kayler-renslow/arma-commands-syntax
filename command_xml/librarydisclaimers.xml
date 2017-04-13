@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='libraryDisclaimers' version='1.62' game='arma2oa' format='1'><syntax><return><value type='ARRAY' order='0'>[array1] - only has one element at the moment, but this number might grow</value></return></syntax></command>

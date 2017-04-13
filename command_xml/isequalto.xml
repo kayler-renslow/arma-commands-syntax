@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='isEqualTo' version='1.16' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='ANYTHING' name='val1' optional='f' order='0'></param><param type='ANYTHING' name='val2' optional='f' order='1'></param></syntax></command>

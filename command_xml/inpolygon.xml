@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='inPolygon' version='1.54' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='POSITION_3D' name='position' optional='f' order='0'></param><array unbounded='t' optional='f' order='1'><param type='POSITION_3D' name='vertexPosition' optional='f' order='0'></param></array></syntax></command>

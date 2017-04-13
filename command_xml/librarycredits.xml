@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='libraryCredits' version='1.62' game='arma2oa' format='1'><syntax><return><value type='ARRAY' order='0'>[array1, array2, (..), arrayN] all under the form [libraryName, credits]</value></return></syntax></command>

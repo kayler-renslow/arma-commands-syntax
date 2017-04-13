@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='list' version='1.00' game='ofp' format='1'><syntax><return><value type='ARRAY' order='0'><alt-types><t type='NOTHING'/></alt-types></value></return><param type='OBJECT' name='trigger' optional='f' order='1'></param></syntax></command>

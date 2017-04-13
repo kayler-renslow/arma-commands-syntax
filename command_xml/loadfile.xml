@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='loadFile' version='1.90' game='ofpr' format='1'><syntax><return><value type='STRING' order='0'></value></return><param type='STRING' name='filename' optional='f' order='1'></param></syntax></command>

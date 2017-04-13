@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='inRangeOfArtillery' version='0.50' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='POSITION' name='pos' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><array unbounded='t' optional='f' order='0'><param type='OBJECT' name='artyUnit' optional='f' order='0'></param></array><param type='STRING' name='magazineType' optional='f' order='1'></param></array></syntax></command>

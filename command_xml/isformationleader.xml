@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='isFormationLeader' version='1.00' game='arma' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if unit is subgroup leader.</value></return><param type='OBJECT' name='unit' optional='f' order='1'>Unit being checked.</param></syntax></command>
