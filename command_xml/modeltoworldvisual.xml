@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='modelToWorldVisual' version='1.32' game='arma3' format='1'><syntax><return><value type='POSITION_AGL' order='0'>world position in format PositionAGL</value></return><param type='OBJECT' name='object' optional='f' order='0'></param><param type='POSITION_RELATIVE' name='modelPos' optional='f' order='1'>in format PositionRelative ([x,y,z] offset relative to the model centre)</param></syntax></command>

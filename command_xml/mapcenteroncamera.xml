@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='mapCenterOnCamera' version='1.02' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='mainmap' optional='f' order='0'></param><param type='BOOLEAN' name='enable' optional='f' order='1'></param></syntax><syntax><return><value type='POSITION_WORLD' order='0'>PositionWorld of the map center (camera focus object) in render scope</value></return><param type='CONTROL' name='minimap' optional='f' order='1'></param></syntax></command>

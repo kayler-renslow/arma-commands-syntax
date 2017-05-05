@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='magazinesAllTurrets' version='1.52' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>in the following format: [[&lt;className&gt;,&lt;turretPath&gt;,&lt;ammoCount&gt;,&lt;id&gt;,&lt;creator&gt;],...]</value></return><param type='OBJECT' name='vehicle' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='missionStart' version='1.8' game='ofpr' format='1'><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'></value><value type='NUMBER' order='1'></value><value type='NUMBER' order='2'></value><value type='NUMBER' order='3'></value><value type='NUMBER' order='4'></value><value type='NUMBER' order='5'></value></array></return></syntax></command>

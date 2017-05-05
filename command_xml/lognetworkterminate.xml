@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='logNetworkTerminate' version='1.56' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='handle' optional='f' order='1'>handle to terminate</param></syntax></command>

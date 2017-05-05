@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='logNetwork' version='1.56' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>handle for the logging</value></return><param type='STRING' name='logFile' optional='f' order='1'>Where to store the log</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='markerPos' version='1.5' game='ofp' format='1'><syntax><return><value type='POSITION' order='0'></value></return><param type='STRING' name='markerName' optional='f' order='1'></param></syntax></command>

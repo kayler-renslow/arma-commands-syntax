@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='modParams' version='1.62' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>Retrieved data if any</value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='modClass' optional='f' order='0'>class name of the mod</param><param type='ARRAY' name='options' optional='f' order='1'>See description</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='missionName' version='1.8' game='ofpr' format='1'><syntax><return><value type='STRING' order='0'></value></return></syntax></command>

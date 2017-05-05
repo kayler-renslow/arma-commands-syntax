@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='move3DENCamera' version='1.56' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='POSITION' name='position' optional='f' order='0'></param><param type='BOOLEAN' name='useOffset' optional='f' order='1'>true if camera should use offset (defined in configFile &gt;&gt; "Cfg3DEN" &gt;&gt; "Camera" &gt;&gt; "moveOffset")</param></array></syntax></command>

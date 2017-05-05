@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='mapAnimAdd' version='1.27' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='time' optional='f' order='0'></param><param type='NUMBER' name='zoom' optional='f' order='1'></param><param type='POSITION_2D' name='position' optional='f' order='2'><alt-types><t type='OBJECT'/><t type='POSITION_3D'/></alt-types></param></array></syntax></command>

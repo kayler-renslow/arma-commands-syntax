@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='mapGridPosition' version='1.04' game='arma2' format='1'><syntax><return><value type='STRING' order='0'>grid position</value></return><param type='OBJECT' name='param' optional='f' order='1'>determines reference position<alt-types><t type='POSITION'/></alt-types></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='magazinesAmmo' version='0.76' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'><array unbounded='f' order='0'><value type='STRING' order='0'></value><value type='NUMBER' order='1'></value></array></array></return><param type='OBJECT' name='vehicle' optional='f' order='1'>unit or vehicle.</param></syntax></command>

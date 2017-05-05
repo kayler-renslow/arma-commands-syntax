@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='nearestLocation' version='1.08' game='arma' format='1'><syntax><return><value type='LOCATION' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='position' optional='f' order='0'><alt-types><t type='POSITION_AGL'/><t type='POSITION_2D'/></alt-types></param><param type='STRING' name='locationClass' optional='f' order='1'></param></array></syntax></command>

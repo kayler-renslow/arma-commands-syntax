@@ -187,7 +187,20 @@ Possible values: `[1]`,`[1, "hello"]`, `[3.6,"hello","hello2"]`, etc.
 
 **Wrong** values: `[]`, `["hi"]`,`[0,0,"string"]` ,etc.
 
-**Example 3**- array tag nested in `syntax`:  
+**Example 3**- array tag with unbounded array of bounded arrays:
+For this example, an unbounded array of bounded arrays is expected
+```
+<array unbounded='t' order='0'>
+    <array unbounded='f' order='0'>
+        <value type='NUMBER' order='0'></value>
+        <value type='STRING' order='1'></value>
+    </array>
+</array>
+```
+
+Possible values: `[]`, `[[0,""]]`, `[[0,""],[1,"hi"]]`
+
+**Example 4**- array tag nested in `syntax`:  
 ```
 <array unbounded='f' optional='f' order='1'>
     <param type='STRING' name='name1' optional='f' order='0'></param>
