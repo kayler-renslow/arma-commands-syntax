@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='nearRoads' version='1.00' game='arma2' format='1'><syntax><return><array unbounded='t' order='0'><value type='OBJECT' order='0'></value></array></return><param type='OBJECT' name='pos' optional='f' order='0'><alt-types><t type='POSITION_AGL'/><t type='POSITION_2D'/></alt-types></param><param type='NUMBER' name='radius' optional='f' order='1'>search radius in meters</param></syntax></command>

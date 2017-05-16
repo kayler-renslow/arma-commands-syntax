@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='needReload' version='1.00' game='arma' format='1'><syntax><return><value type='NUMBER' order='0'>1, 0: full mag, 1: empty mag</value></return><param type='OBJECT' name='vehicle' optional='f' order='1'></param></syntax></command>
