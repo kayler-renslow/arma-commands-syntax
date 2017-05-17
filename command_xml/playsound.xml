@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='playSound' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='soundName' optional='f' order='1'></param></syntax><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='soundName' optional='f' order='0'></param><param type='BOOLEAN' name='isSpeech' optional='f' order='1'>play as speech through radio channel, fadeSpeech applies.</param></array></syntax></command>

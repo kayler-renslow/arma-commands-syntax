@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='publicVariableServer' version='1.62' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='varName' optional='f' order='1'></param></syntax></command>

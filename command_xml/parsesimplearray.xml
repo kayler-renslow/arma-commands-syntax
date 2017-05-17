@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='parseSimpleArray' version='1.68' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>valid array</value></return><param type='STRING' name='stringArray' optional='f' order='1'>string formatted as simple array</param></syntax></command>

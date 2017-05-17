@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='playMusic' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='name' optional='f' order='1'>music class</param></syntax><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='name' optional='f' order='0'>music class</param><param type='NUMBER' name='start' optional='f' order='1'>start from (seconds). Could be negative.</param></array></syntax></command>

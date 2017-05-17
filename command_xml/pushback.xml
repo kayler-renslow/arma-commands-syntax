@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='pushBack' version='1.26' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>index of inserted element</value></return><param type='ARRAY' name='array' optional='f' order='0'></param><param type='ANYTHING' name='element' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='onEachFrame' version='1.63' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='statement' optional='f' order='1'><alt-types><t type='CODE'/></alt-types></param></syntax></command>

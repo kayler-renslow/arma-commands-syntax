@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='position' version='1.5' game='ofp' format='1'><syntax><return><value type='POSITION_AGLS' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='1'><alt-types><t type='LOCATION'/></alt-types></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='posWorldToScreen' version='1.00' game='arma' format='1'><syntax><return><value type='POSITION_2D' order='0'></value></return><param type='CONTROL' name='map' optional='f' order='0'></param><param type='POSITION_2D' name='position' optional='f' order='1'></param></syntax></command>

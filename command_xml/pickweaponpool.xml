@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='pickWeaponPool' version='1.75' game='ofpr' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='1'></param></syntax></command>

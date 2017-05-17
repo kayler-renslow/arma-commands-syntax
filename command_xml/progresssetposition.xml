@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='progressSetPosition' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'>progress bar control</param><param type='NUMBER' name='pos' optional='f' order='1'>0: no progress; 1: full progress</param></syntax></command>

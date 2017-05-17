@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='parseNumber' version='1.00' game='arma' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='STRING' name='string' optional='f' order='1'></param></syntax><syntax><return><value type='NUMBER' order='0'>0 if false, 1 if true</value></return><param type='BOOLEAN' name='boolean' optional='f' order='1'></param></syntax></command>

@@ -6,7 +6,7 @@ Converting all commands will take a while since each command is manually convert
 tool (the tool is not publicly available).
 
 ## Progress
-* About 54% commands (1143 total) have been converted. Phew.
+* About 62% commands (1331 total) have been converted. Phew.
 
 ## How-to Use
 ### Intro

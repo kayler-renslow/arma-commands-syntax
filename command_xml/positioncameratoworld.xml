@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='positionCameraToWorld' version='1.00' game='arma' format='1'><syntax><return><value type='POSITION_AGL' order='0'>Camera world position, format PositionAGL</value></return><param type='POSITION_RELATIVE' name='cameraPos' optional='f' order='1'>Relative camera position, format [x, z, y] NOTE: y and z are swapped around, different from your usual model space coordinates format</param></syntax></command>

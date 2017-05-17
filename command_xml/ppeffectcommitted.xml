@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ppEffectCommitted' version='1.00' game='arma2' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='STRING' name='effect' optional='f' order='1'>effect name</param></syntax><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='NUMBER' name='effect' optional='f' order='1'>effect handle</param></syntax></command>

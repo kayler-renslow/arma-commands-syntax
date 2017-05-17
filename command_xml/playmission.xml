@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='playMission' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='campaign' optional='f' order='0'></param><param type='STRING' name='mission' optional='f' order='1'><alt-types><t type='CONFIG'/></alt-types></param><param type='BOOLEAN' name='skipBriefing' optional='t' order='2'></param></array></syntax></command>

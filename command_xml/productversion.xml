@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='productVersion' version='1.62' game='arma2oa' format='1'><syntax><return><value type='ARRAY' order='0'>Product Name String - Product Name Short Number - Product Version Number Number - Product Build Number String (Arma 3) - Product Branch Boolean (Arma 3) - Product is launched using mods true or vanilla false String (Arma 3) - Platform ("Windows", "Linux" or "OSX") String (Arma 3) - Architecture - x64 for 64bit or x86 for 32bit Since version 1.67</value></return></syntax></command>

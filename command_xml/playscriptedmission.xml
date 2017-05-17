@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='playScriptedMission' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='world' optional='f' order='0'></param><param type='CODE' name='expression' optional='f' order='1'></param><param type='CONFIG' name='config' optional='t' order='2'></param><param type='BOOLEAN' name='ignoreChildWindow' optional='t' order='3'></param></array></syntax></command>

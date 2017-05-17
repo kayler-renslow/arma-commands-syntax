@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='primaryWeaponItems' version='0.50' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='STRING' order='0'>silencer</value><value type='STRING' order='1'>laserpointer/flashlight</value><value type='STRING' order='2'>optics</value><value type='STRING' order='3'>bipod</value></array></return><param type='OBJECT' name='unit' optional='f' order='1'></param></syntax></command>
