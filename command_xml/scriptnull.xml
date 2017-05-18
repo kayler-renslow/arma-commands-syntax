@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='scriptNull' version='1.32' game='arma3' format='1'><syntax><return><value type='SCRIPT_HANDLE' order='0'>NULL script</value></return></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setBleedingRemaining' version='0.50' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='0'></param><param type='NUMBER' name='time' optional='f' order='1'></param></syntax></command>

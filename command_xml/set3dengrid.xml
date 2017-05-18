@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='set3DENGrid' version='1.56' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='type' optional='f' order='0'>name of transformation</param><param type='NUMBER' name='value' optional='f' order='1'>transformation increment</param></array></syntax></command>

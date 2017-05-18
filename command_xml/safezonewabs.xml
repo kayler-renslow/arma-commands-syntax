@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='safeZoneWAbs' version='1.03' game='arma2' format='1'><syntax><return><value type='NUMBER' order='0'></value></return></syntax></command>

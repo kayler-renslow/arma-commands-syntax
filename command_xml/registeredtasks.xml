@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='registeredTasks' version='1.00' game='arma2' format='1'><syntax><return><array unbounded='t' order='0'><value type='STRING' order='0'></value></array></return><param type='TEAM_MEMBER' name='member' optional='f' order='1'></param></syntax></command>

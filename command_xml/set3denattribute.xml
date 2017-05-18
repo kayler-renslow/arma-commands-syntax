@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='set3DENAttribute' version='1.56' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if the value was set</value></return><param type='EDEN_ENTITY' name='entity' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='STRING' name='class' optional='f' order='0'>attribute name</param><param type='ANYTHING' name='value' optional='f' order='1'>new attribute value</param></array></syntax></command>

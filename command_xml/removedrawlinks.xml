@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='removeDrawLinks' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='map' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='from' optional='f' order='0'></param><param type='STRING' name='paramType' optional='f' order='1'>use empty string to remove all links</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='scriptDone' version='1.00' game='arma' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='SCRIPT_HANDLE' name='handle' optional='f' order='1'>returned by spawn or execVM</param></syntax></command>

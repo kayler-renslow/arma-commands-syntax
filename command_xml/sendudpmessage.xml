@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='sendUDPMessage' version='1.51' game='arma2oa' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='ip' optional='f' order='0'></param><param type='NUMBER' name='port' optional='f' order='1'></param><param type='STRING' name='message' optional='f' order='2'></param></array></syntax></command>

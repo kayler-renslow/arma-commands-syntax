@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='set3DENMissionAttributes' version='1.56' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if the value was set</value></return><array unbounded='t' optional='f' order='1'><array unbounded='f' optional='f' order='0'><param type='STRING' name='section' optional='f' order='0'>attribute section</param><param type='STRING' name='class' optional='f' order='1'>attribute name</param><param type='ANYTHING' name='value' optional='f' order='2'></param></array></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='radioChannelRemove' version='1.00' game='TKOH' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='index' optional='f' order='0'>custom radio channel id returned by radioChannelCreate command</param><array unbounded='t' optional='f' order='1'><param type='OBJECT' name='character' optional='f' order='0'></param></array></syntax></command>

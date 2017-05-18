@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setApertureNew' version='0.50' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='min' optional='f' order='0'></param><param type='NUMBER' name='std' optional='f' order='1'></param><param type='NUMBER' name='max' optional='f' order='2'></param><param type='NUMBER' name='stdLum' optional='f' order='3'></param></array></syntax></command>

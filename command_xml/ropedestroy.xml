@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ropeDestroy' version='1.00' game='TKOH' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='rope' optional='f' order='1'>rope object returned by ropeCreate command</param></syntax></command>

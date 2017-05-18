@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='set3DENObjectType' version='1.56' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='t' optional='f' order='0'><param type='OBJECT' name='object' optional='f' order='0'></param></array><param type='STRING' name='classname' optional='f' order='1'>name of the cfgVehicles class</param></syntax></command>

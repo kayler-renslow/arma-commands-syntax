@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='removeAllMusicEventHandlers' version='0.50' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='type' optional='f' order='1'>"MusicStart" or "MusicStop"</param></syntax></command>

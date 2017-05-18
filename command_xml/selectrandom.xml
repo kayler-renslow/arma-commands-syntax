@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='selectRandom' version='1.56' game='arma3' format='1'><syntax><return><value type='ANYTHING' order='0'>random value</value></return><param type='ARRAY' name='array' optional='f' order='1'>array of anything</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='removeItemFromVest' version='1.04' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='0'></param><param type='STRING' name='item' optional='f' order='1'></param></syntax></command>

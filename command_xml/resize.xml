@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='resize' version='1.75' game='ofpr' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='ARRAY' name='arrayName' optional='f' order='0'></param><param type='NUMBER' name='count' optional='f' order='1'>the new number of elements.</param></syntax></command>

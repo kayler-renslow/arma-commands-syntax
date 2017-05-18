@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='set3DENIconsVisible' version='1.56' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='BOOLEAN' name='showScene' optional='f' order='0'>visibility in the scene</param><param type='BOOLEAN' name='showMap' optional='f' order='1'>visibility in the map</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setCamUseTi' version='1.51' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='BOOLEAN' name='Bool' optional='f' order='0'>enable/disable the effect</param><param type='NUMBER' name='modeIndex' optional='f' order='1'>Ti mode</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='removeAllCuratorCameraAreas' version='1.16' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='curatorObj' optional='f' order='1'>Curator module.</param></syntax></command>

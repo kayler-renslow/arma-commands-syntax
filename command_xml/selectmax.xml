@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='selectMax' version='1.66' game='arma3' format='1'><syntax><return><value type='ANYTHING' order='0'>element with maximum numerical value</value></return><array unbounded='t' optional='f' order='1'><param type='NUMBER' name='num' optional='f' order='0'></param></array></syntax></command>

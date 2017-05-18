@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='removeAllEventHandlers' version='1.85' game='ofpr' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='objectName' optional='f' order='0'></param><param type='STRING' name='handlerType' optional='f' order='1'>See Event Handlers for list</param></syntax></command>

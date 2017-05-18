@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='remove3DENLayer' version='1.56' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>true if the layer was removed successfully (i.e., correct layer ID was used)</value></return><param type='NUMBER' name='layerID' optional='f' order='1'>layer ID as returned by add3DENLayer command</param></syntax></command>
