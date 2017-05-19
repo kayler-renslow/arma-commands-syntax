@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='showCommandingMenu' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='name' optional='f' order='1'>Class name or user menu name (with "#USER:" prefix and "_#" page number suffix, where # is the page number starting with 0).</param></syntax></command>

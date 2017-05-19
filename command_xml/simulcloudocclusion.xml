@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='simulCloudOcclusion' version='1.00' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='POSITION' name='pos1' optional='f' order='0'></param><param type='POSITION' name='pos2' optional='f' order='1'></param></array></syntax></command>

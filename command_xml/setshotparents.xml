@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setShotParents' version='1.66' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='projectile' optional='f' order='0'>the actual projectile shot</param><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='vehicle' optional='f' order='0'>Vehicle shooting projectile</param><param type='OBJECT' name='instigator' optional='f' order='1'>Person pulling the trigger</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setMusicEventHandler' version='1.02' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>id of the event handler</value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='type' optional='f' order='0'>"MusicStart" or "MusicStop"</param><param type='STRING' name='function' optional='f' order='1'>script to be executed. Passes params array 0: class name of the sound in CfgMusic, 1: event handler id</param></array></syntax></command>

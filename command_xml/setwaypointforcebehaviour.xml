@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setWaypointForceBehaviour' version='1.58' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='WAYPOINT' name='waypoint' optional='f' order='0'></param><param type='BOOLEAN' name='state' optional='f' order='1'>Force or not</param></syntax></command>

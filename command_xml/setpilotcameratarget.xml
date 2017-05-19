@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setPilotCameraTarget' version='1.64' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'></param><param type='OBJECT' name='target' optional='f' order='1'>format PositionASL<alt-types><t type='POSITION_ASL'/></alt-types></param></syntax></command>

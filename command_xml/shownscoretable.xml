@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='shownScoretable' version='1.60' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>0: Force hidden, 1: Force shown, -1: Default</value></return></syntax></command>

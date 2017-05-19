@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setCurrentTask' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'>the unit having the task</param><param type='TASK' name='task' optional='f' order='1'>the task you want to select</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setDefaultCamera' version='1.10' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='POSITION_ASL' name='position' optional='f' order='0'>position of the camera</param><param type='VECTOR_3D' name='direction' optional='f' order='1'>format Vector3D - direction of the camera</param></array></syntax></command>

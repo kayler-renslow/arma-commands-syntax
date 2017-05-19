@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setWPPos' version='1.21' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='WAYPOINT' name='waypoint' optional='f' order='0'></param><param type='POSITION_2D' name='pos' optional='f' order='1'></param></syntax></command>

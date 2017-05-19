@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='shownCuratorCompass' version='1.16' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return></syntax></command>

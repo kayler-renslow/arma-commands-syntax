@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setVelocityModelSpace' version='1.68' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><param type='VECTOR_3D' name='velocity' optional='f' order='1'>relative direction vector</param></syntax></command>

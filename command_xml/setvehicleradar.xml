@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setVehicleRadar' version='1.70' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'>an AI-controlled vehicle</param><param type='NUMBER' name='rules' optional='f' order='1'>a flag, 0 - automatic, 1 - forced on, 2 - forced off</param></syntax></command>

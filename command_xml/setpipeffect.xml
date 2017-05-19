@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setPiPEffect' version='1.00' game='TKOH' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='name' optional='f' order='0'>Render surface reference from Render To Texture</param><array unbounded='t' optional='f' order='1'><param type='NUMBER' name='effect' optional='f' order='0'>effect type</param><param type='ANYTHING' name='optionalParam1' optional='t' order='1'></param></array></syntax></command>

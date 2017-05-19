@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='skipTime' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='duration' optional='f' order='1'>Hours to skip. A positive value will create a forward time jump, a negative value will jump backwards. One second is roughly 0.00026 hours. Any calculations must be enclosed in parentheses, e.g. skipTime (_seconds/3600)</param></syntax></command>

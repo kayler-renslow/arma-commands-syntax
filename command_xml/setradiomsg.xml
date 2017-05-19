@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setRadioMsg' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='index' optional='f' order='0'>from 1 to 10 1 - Alpha (key 1) 2 - Bravo (key 2) 3 - Charlie (key 3) 4 - Delta (key 4) 5 - Echo (key 5) 6 - Foxtrot (key 6) 7 - Golf (key 7) 8 - Hotel (key 8) 9 - India (key 9) 10 - Juliet (key 0)</param><param type='STRING' name='text' optional='f' order='1'></param></syntax></command>

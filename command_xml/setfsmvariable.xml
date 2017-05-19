@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setFSMVariable' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='handle' optional='f' order='0'>FSM handle</param><array unbounded='f' optional='f' order='1'><param type='STRING' name='name' optional='f' order='0'>name of the FSM variable</param><param type='ANYTHING' name='value' optional='f' order='1'>new value of the FSM variable</param></array></syntax></command>

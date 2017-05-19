@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='squadParams' version='1.18' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>[[squadNick,squadName,squadEmail,squadWeb,squadPicture,squadTitle],[memberId,memberNick,memberName,memberEmail,memberIcq,memberRemark]]</value></return><param type='OBJECT' name='unit' optional='f' order='1'></param></syntax></command>

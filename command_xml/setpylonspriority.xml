@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setPylonsPriority' version='1.70' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><array unbounded='t' optional='f' order='1'><param type='NUMBER' name='pylonPriority' optional='f' order='0'></param></array></syntax></command>

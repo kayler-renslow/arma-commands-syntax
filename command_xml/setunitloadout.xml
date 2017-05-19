@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setUnitLoadout' version='1.58' game='arma3' format='1'><uncertain/><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='unit' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='ARRAY' name='loadout' optional='f' order='0'>loadout array from getUnitLoadout</param><param type='BOOLEAN' name='rearm' optional='t' order='1'>Partially emptied magazines will be refilled when the loadout is applied - Default: false</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setPosASL2' version='1.00' game='arma2' format='1'><deprecated/><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='obj' optional='f' order='0'></param><param type='POSITION_ASL' name='pos' optional='f' order='1'></param></syntax></command>

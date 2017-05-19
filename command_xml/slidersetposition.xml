@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='sliderSetPosition' version='1.85' game='ofpr' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='idc' optional='f' order='0'></param><param type='NUMBER' name='pos' optional='f' order='1'></param></array></syntax><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'></param><param type='NUMBER' name='pos' optional='f' order='1'></param></syntax></command>

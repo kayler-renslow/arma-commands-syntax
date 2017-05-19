@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setMagazineTurretAmmo' version='1.34' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='STRING' name='magazineClass' optional='f' order='0'></param><param type='NUMBER' name='ammoCount' optional='f' order='1'></param><param type='ARRAY' name='turretPath' optional='f' order='2'></param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setDynamicSimulationDistanceCoef' version='1.68' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='class' optional='f' order='0'>Multiplier class, currently only: "IsMoving" - Multiplies the entity activation distance by set value if the entity is moving. Default: 2</param><param type='NUMBER' name='multiplier' optional='f' order='1'>Distance multiplier</param></syntax></command>

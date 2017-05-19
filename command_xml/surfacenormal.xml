@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='surfaceNormal' version='1.60' game='arma2oa' format='1'><syntax><return><value type='POSITION_3D' order='0'>Example: [-0.102321,0.19977,0.974486]</value></return><param type='POSITION_2D' name='position' optional='f' order='1'>format Position2D or Position3D in which case Z will be ignored<alt-types><t type='POSITION_3D'/></alt-types></param></syntax></command>

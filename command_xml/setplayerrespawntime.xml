@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setPlayerRespawnTime' version='1.57' game='arma2oa' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='interval' optional='f' order='1'>respawn time in seconds</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setTimeMultiplier' version='1.26' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='value' optional='f' order='1'>has to in range from 0.1 to 120</param></syntax></command>

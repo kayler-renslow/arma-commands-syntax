@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setStaminaScheme' version='1.54' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='scheme' optional='f' order='1'>can be "Normal", "FastDrain", "Exhausted" or "Default"</param></syntax></command>

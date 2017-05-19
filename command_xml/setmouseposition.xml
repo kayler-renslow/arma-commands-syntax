@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setMousePosition' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='x' optional='f' order='0'>x in screen coordinates</param><param type='NUMBER' name='y' optional='f' order='1'>y in screen coordinates</param></array></syntax></command>

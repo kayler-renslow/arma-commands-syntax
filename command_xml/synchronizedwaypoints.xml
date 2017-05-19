@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='synchronizedWaypoints' version='0.50' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'><value type='ARRAY' order='0'>waypoint</value></array></return><param type='OBJECT' name='obj' optional='f' order='1'>waypoint or object<alt-types><t type='WAYPOINT'/></alt-types></param></syntax></command>

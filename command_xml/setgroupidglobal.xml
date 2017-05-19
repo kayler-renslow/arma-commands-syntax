@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setGroupIdGlobal' version='1.48' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='group' optional='f' order='0'><alt-types><t type='GROUP'/></alt-types></param><array unbounded='t' optional='f' order='1'><param type='STRING' name='nameFormat' optional='f' order='0'>format template (%keyword1 - %keyword2...etc)</param><param type='STRING' name='nameParam1' optional='f' order='1'>param keyword</param></array></syntax></command>

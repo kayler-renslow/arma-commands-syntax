@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='diag_resetShapes' version='1.69' game='arma3dev' format='1'><syntax><return><value type='NOTHING' order='0'></value></return></syntax></command>

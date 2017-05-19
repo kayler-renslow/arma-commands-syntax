@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getCursorObjectParams' version='1.70' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'>[cursorObject, cursorObjectNamedSel, distToCursorObject]</value></return></syntax></command>

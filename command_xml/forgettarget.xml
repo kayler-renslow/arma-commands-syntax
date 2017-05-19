@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='forgetTarget' version='1.70' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='GROUP' name='group' optional='f' order='0'>group itself or unit in a group<alt-types><t type='OBJECT'/></alt-types></param><param type='OBJECT' name='target' optional='f' order='1'>group target</param></syntax></command>

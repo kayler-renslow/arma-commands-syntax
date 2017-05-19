@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setRain' version='1.75' game='ofpr' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='NUMBER' name='time' optional='f' order='0'>transition time to the new value in seconds</param><param type='NUMBER' name='rain' optional='f' order='1'>new rain value in range 0...1</param></syntax></command>

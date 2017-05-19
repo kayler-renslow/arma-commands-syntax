@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setFriend' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='SIDE' name='side1' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='SIDE' name='side2' optional='f' order='0'></param><param type='NUMBER' name='value' optional='f' order='1'></param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setDate' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='year' optional='f' order='0'></param><param type='NUMBER' name='month' optional='f' order='1'></param><param type='NUMBER' name='day' optional='f' order='2'></param><param type='NUMBER' name='hour' optional='f' order='3'></param><param type='NUMBER' name='minute' optional='f' order='4'></param></array></syntax></command>

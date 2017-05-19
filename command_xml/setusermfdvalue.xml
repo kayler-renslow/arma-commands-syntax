@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setUserMFDvalue' version='1.70' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'>an vehicle with MFD</param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='index' optional='f' order='0'>index of custom MFD user actions</param><param type='NUMBER' name='value' optional='f' order='1'>value which should custom source return in MFD</param></array></syntax></command>

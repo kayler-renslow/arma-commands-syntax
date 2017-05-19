@@ -6,7 +6,7 @@ Converting all commands will take a while since each command is manually convert
 tool (the tool is not publicly available).
 
 ## Progress
-* About 73% commands (1527 total) have been converted. Phew. <!-- 2083 total-->
+* About 89% commands (1879 total) have been converted. Phew. <!-- 2102 total-->
 
 ## How-to Use
 ### Intro
@@ -317,13 +317,12 @@ Here are all the types possible:
 #### Types that are just shorthand for an array:
 See [this wiki article](https://community.bistudio.com/wiki/Position) for more information on positions.
 
-A note on the `POSITION` type: the wiki is unclear of its usage. The command XML is guaranteed to follow the format listed below.
-
 | Type name| Presentable name | Array Format |Notes|
 |---|---|---|---|
 |COLOR|Color|[r:*Number*, g:*Number*, b:*Number*, a:*Number*]|[Wiki article](https://community.bistudio.com/wiki/Color)|
+|COLOR_RGB|Color RGB|[r:*Number*, g:*Number*, b:*Number*]|Notice no alpha value|
 |ARRAY_OF_EDEN_ENTITIES|Array of Eden Entities|See wiki article.|[Wiki article](https://community.bistudio.com/wiki/Array_of_Eden_Entities)|
-|POSITION|Position|[x:*Number*, y:*Number*, z:*Number*?]|? means z is optional|
+|POSITION|Position|[x:*Number*, y:*Number*, z:*Number*?]|Unclear what this is, but for simplicity, assume that z is optional.|
 |POSITION_2D|Position 2D|[x:*Number*, y:*Number*]|
 |POSITION_3D|Position 3D|[x:*Number*, y:*Number*, z:*Number*]|
 |POSITION_ASL|Position ASL|[x:*Number*, y:*Number*, z:*Number*]|
@@ -335,6 +334,7 @@ A note on the `POSITION` type: the wiki is unclear of its usage. The command XML
 |POSITION_RELATIVE|Position Relative|[x:*Number*, y:*Number*, z:*Number*]|
 |POSITION_CONFIG|Position Config|[x:*Number*, z:*Number*, y:*Number*]|Notice that z and y are swapped|
 |VECTOR_3D|Vector 3D|[x:*Number*, y:*Number*, z:*Number*]|This type exists to clarify that it is a vector rather than a static position. From a type checking standpoint, it makes no difference.|
+|WAYPOINT|Waypoint|**TODO TODO TODO**|An array format for waypoints|
 
 ## Example Syntax 1 - Basic Command
 This is the xml for [abs](https://community.bistudio.com/wiki/abs).

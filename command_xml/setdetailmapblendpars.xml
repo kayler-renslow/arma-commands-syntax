@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setDetailMapBlendPars' version='1.02' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='fullDetail' optional='f' order='0'>threshold distance in metres up to which the terrain will have full texture detail</param><param type='NUMBER' name='noDetail' optional='f' order='1'>threshold distance in metres after which the texture detail will be switched off</param></array></syntax></command>

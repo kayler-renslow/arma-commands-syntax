@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setSize' version='1.08' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='LOCATION' name='location' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='width' optional='f' order='0'>total width / 2</param><param type='NUMBER' name='height' optional='f' order='1'>total height / 2</param></array></syntax></command>

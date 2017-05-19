@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='remoteExecutedOwner' version='1.70' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>id of the client, which initiated remote execution</value></return></syntax></command>

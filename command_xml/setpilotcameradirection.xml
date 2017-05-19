@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setPilotCameraDirection' version='1.64' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'></param><param type='VECTOR_3D' name='dir' optional='f' order='1'>[x,y,z] - format Vector3D relative to the model centre (In a similar fashion to PositionRelative)</param></syntax></command>
