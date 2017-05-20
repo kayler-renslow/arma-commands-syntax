@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='shownHUD' version='1.52' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='BOOLEAN' order='0'>hud</value><value type='BOOLEAN' order='1'>info</value><value type='BOOLEAN' order='2'>radar</value><value type='BOOLEAN' order='3'>compass</value><value type='BOOLEAN' order='4'>direction</value><value type='BOOLEAN' order='5'>menu</value><value type='BOOLEAN' order='6'>group</value><value type='BOOLEAN' order='7'>cursors</value></array></return></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='terrainIntersectAtASL' version='1.68' game='arma3' format='1'><syntax><return><value type='POSITION_ASL' order='0'>intersect position in format PositionASL</value></return><array unbounded='f' optional='f' order='1'><param type='POSITION_ASL' name='pos1' optional='f' order='0'>start position in format PositionASL</param><param type='POSITION_ASL' name='pos2' optional='f' order='1'>end position in format PositionASL</param></array></syntax></command>

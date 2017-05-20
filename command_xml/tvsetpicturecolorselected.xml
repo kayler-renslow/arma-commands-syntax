@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='tvSetPictureColorSelected' version='1.62' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><array unbounded='t' optional='f' order='0'><param type='NUMBER' name='pathNum' optional='f' order='0'></param></array><param type='COLOR' name='color' optional='f' order='1'>color in format [r,g,b,a]</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='triggerTimeout' version='1.00' game='arma2' format='1'><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'>min</value><value type='NUMBER' order='1'>mid</value><value type='NUMBER' order='2'>max</value><value type='BOOLEAN' order='3'>interruptible</value></array></return><param type='OBJECT' name='trigger' optional='f' order='1'></param></syntax></command>

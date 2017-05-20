@@ -6,7 +6,9 @@ Converting all commands will take a while since each command is manually convert
 tool (the tool is not publicly available).
 
 ## Progress
-* About 97% commands (2049 total conversions) have been converted. Phew. <!-- 2102 total-->
+All commands up through Arma 3 version 1.70 have been converted (2102 total conversions). Phew.
+
+THANK GOD IT'S OVER. [Celebrate?](https://www.youtube.com/watch?v=3GwjfUFyY6M)
 
 ## How-to Use
 ### Intro

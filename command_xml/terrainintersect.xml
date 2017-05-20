@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='terrainIntersect' version='1.62' game='arma2oa' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='POSITION_AGL' name='pos1' optional='f' order='0'>start position in format PositionAGL</param><param type='POSITION_AGL' name='pos2' optional='f' order='1'>end position in format PositionAGL</param></array></syntax></command>

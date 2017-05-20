@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='taskCustomData' version='1.58' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='STRING' order='0'>icon path</value><value type='STRING' order='1'>icon text</value><value type='STRING' order='2'>description text</value></array></return><param type='TASK' name='task' optional='f' order='1'></param></syntax></command>

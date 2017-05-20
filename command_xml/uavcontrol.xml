@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='UAVControl' version='1.00' game='arma3' format='1'><syntax><return><array unbounded='f' order='0'><value type='OBJECT' order='0'>UAV operator</value><value type='STRING' order='1'>vehicle role of the operator in UAV, for example: "DRIVER" or "GUNNER"</value></array></return><param type='OBJECT' name='uav' optional='f' order='1'></param></syntax></command>

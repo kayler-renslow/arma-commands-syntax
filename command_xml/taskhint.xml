@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='taskHint' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><array unbounded='f' optional='f' order='1'><param type='STRING' name='hintText' optional='f' order='0'></param><param type='COLOR' name='color' optional='f' order='1'></param><param type='STRING' name='icon' optional='f' order='2'>possible values: taskNew, taskDone, taskFailed, taskCurrent</param></array></syntax></command>

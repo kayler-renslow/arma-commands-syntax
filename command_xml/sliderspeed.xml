@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='sliderSpeed' version='1.85' game='ofpr' format='1'><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'>min</value><value type='NUMBER' order='1'>max</value></array></return><param type='NUMBER' name='idc' optional='f' order='1'></param></syntax><syntax><return><array unbounded='f' order='0'><value type='NUMBER' order='0'>min</value><value type='NUMBER' order='1'>max</value></array></return><param type='CONTROL' name='control' optional='f' order='1'></param></syntax></command>
