@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='toFixed' version='1.66' game='arma3' format='1'><syntax><return><value type='STRING' order='0'></value></return><param type='NUMBER' name='number' optional='f' order='0'>number to convert</param><param type='NUMBER' name='decimals' optional='f' order='1'>number of decimals to display (range 0-20)</param></syntax></command>

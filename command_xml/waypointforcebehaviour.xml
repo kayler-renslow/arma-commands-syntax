@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='waypointForceBehaviour' version='1.58' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>is forced</value></return><param type='WAYPOINT' name='waypoint' optional='f' order='1'></param></syntax></command>

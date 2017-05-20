@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='taskState' version='1.00' game='arma2' format='1'><syntax><return><value type='STRING' order='0'>current state of task</value></return><param type='TASK' name='task' optional='f' order='1'>the task you want to query</param></syntax></command>

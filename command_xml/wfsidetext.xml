@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='WFSideText' version='1.04' game='arma2' format='1'><syntax><return><value type='STRING' order='0'>unlocalized side text value</value></return><param type='OBJECT' name='param' optional='f' order='1'><alt-types><t type='GROUP'/><t type='SIDE'/></alt-types></param></syntax></command>

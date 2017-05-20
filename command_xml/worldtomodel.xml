@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='worldToModel' version='1.00' game='arma' format='1'><syntax><return><value type='POSITION_RELATIVE' order='0'>position relative to model, format PositionRelative</value></return><param type='OBJECT' name='model' optional='f' order='0'></param><param type='POSITION_AGL' name='position' optional='f' order='1'>world position, format PositionAGL or Position2D<alt-types><t type='POSITION_2D'/></alt-types></param></syntax></command>

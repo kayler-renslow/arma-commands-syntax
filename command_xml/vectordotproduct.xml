@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='vectorDotProduct' version='1.22' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='VECTOR_3D' name='vector1' optional='f' order='0'></param><param type='VECTOR_3D' name='vector2' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='weaponDirection' version='1.00' game='arma' format='1'><syntax><return><value type='VECTOR_3D' order='0'>format Vector3D</value></return><param type='OBJECT' name='vehicleName' optional='f' order='0'></param><param type='STRING' name='weaponName' optional='f' order='1'></param></syntax></command>

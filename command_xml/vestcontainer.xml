@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='vestContainer' version='1.04' game='arma3' format='1'><syntax><return><value type='OBJECT' order='0'>cargo container or &lt;NULL-object&gt;</value></return><param type='OBJECT' name='unit' optional='f' order='1'>a soldier</param></syntax></command>

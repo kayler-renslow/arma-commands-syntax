@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='toArray' version='1.09' game='arma' format='1'><syntax><return><array unbounded='t' order='0'><value type='NUMBER' order='0'></value></array></return><param type='STRING' name='string' optional='f' order='1'></param></syntax></command>

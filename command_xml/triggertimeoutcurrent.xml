@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='triggerTimeoutCurrent' version='1.08' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>time remaining before trigger activation.</value></return><param type='OBJECT' name='trigger' optional='f' order='1'>trigger object</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='taskDescription' version='1.00' game='arma2' format='1'><syntax><return><array unbounded='f' order='0'><value type='STRING' order='0'>task description</value><value type='STRING' order='1'>task title</value><value type='STRING' order='2'>task waypoint description</value></array></return><param type='TASK' name='task' optional='f' order='1'></param></syntax></command>

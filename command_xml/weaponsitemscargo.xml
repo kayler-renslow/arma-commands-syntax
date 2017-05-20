@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='weaponsItemsCargo' version='1.22' game='arma3' format='1'><syntax><return><value type='ARRAY' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='worldToModelVisual' version='1.32' game='arma3' format='1'><syntax><return><value type='POSITION_RELATIVE' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'></param><param type='POSITION_AGL' name='worldPosition' optional='f' order='1'><alt-types><t type='POSITION_2D'/></alt-types></param></syntax></command>

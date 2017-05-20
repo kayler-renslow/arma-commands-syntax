@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='worldToScreen' version='1.00' game='arma2' format='1'><syntax><return><value type='POSITION_2D' order='0'>Screen position [x,y] (see SafeZone for more info)</value></return><param type='POSITION_2D' name='position' optional='f' order='1'>World position 2D [x,y] or PositionAGL<alt-types><t type='POSITION_AGL'/></alt-types></param></syntax></command>

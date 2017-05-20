@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='throw' version='1.00' game='arma' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='ANYTHING' name='expression' optional='f' order='1'></param></syntax><syntax><return><value type='NOTHING' order='0'></value></return><param type='IF' name='if' optional='f' order='0'>if (condition) returns true, "exception" is thrown</param><param type='ANYTHING' name='exception' optional='f' order='1'>value that will be put into _exception variable inside catch block</param></syntax></command>

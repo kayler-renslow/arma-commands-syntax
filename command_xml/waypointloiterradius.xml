@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='waypointLoiterRadius' version='1.00' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='WAYPOINT' name='waypoint' optional='f' order='1'></param></syntax></command>

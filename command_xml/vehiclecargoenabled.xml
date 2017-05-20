@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='vehicleCargoEnabled' version='1.62' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>returns true if the vehicle has enabled transporting other vehicles, and false if the vehicle has not enabled transporting other vehicles</value></return><param type='OBJECT' name='vehicle' optional='f' order='1'></param></syntax></command>

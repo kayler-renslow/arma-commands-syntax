@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='waypointPosition' version='1.5' game='ofp' format='1'><syntax><return><value type='POSITION' order='0'></value></return><param type='WAYPOINT' name='waypoint' optional='f' order='1'></param></syntax></command>

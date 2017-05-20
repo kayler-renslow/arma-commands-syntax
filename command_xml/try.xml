@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='try' version='1.00' game='arma' format='1'><syntax><return><value type='EXCEPTION_TYPE' order='0'></value></return><param type='CODE' name='code' optional='f' order='1'></param></syntax><syntax><return><value type='EXCEPTION_TYPE' order='0'></value></return><param type='ANYTHING' name='args' optional='f' order='0'>passed arguments, will be put in _this variable inside the "code"</param><param type='CODE' name='code' optional='f' order='1'></param></syntax></command>

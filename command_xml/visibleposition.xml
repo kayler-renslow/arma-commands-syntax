@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='visiblePosition' version='1.60' game='arma2oa' format='1'><syntax><return><value type='POSITION_AGLS' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='1'>name of the object</param></syntax></command>

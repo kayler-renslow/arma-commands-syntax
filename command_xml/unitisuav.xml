@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='unitIsUAV' version='1.64' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>true when UAV</value></return><param type='OBJECT' name='unit' optional='f' order='1'></param></syntax></command>

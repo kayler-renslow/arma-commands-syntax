@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='vehicleChat' version='1.34' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicleName' optional='f' order='0'>vehicle unit is in</param><param type='STRING' name='chatText' optional='f' order='1'>message to transmit</param></syntax></command>
