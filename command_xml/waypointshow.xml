@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<command name='waypointShow' version='1.00' game='arma2' format='1'><syntax><return><value type='STRING' order='0'>see description</value></return><param type='WAYPOINT' name='waypoint' optional='f' order='1'></param></syntax></command>
+<command name='waypointShow' version='1.00' game='arma2' format='1'><syntax><return><value type='STRING' order='0'>see description<literal>"NEVER"</literal><literal>"EASY"</literal><literal>"ALWAYS"</literal><literal>"ERROR"</literal></value></return><param type='WAYPOINT' name='waypoint' optional='f' order='1'></param></syntax></command>
