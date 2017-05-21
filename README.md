@@ -126,6 +126,9 @@ AND NOT LIKE THIS:
 [required, optional, required]
 ```
 
+As with return `value`, the `param` tag has the option for literals. The `literal` tag isn't guaranteed to exist however.
+See Literals for more information.
+
 For more information on the `array` tag, see Array Tag below.
 
 **Example**- `param` tag:  
@@ -146,6 +149,9 @@ Here are descriptions of the `value` tag's attributes:
 * `type`: The type of the value.
 * `order`: The order in which it occurs in an array if nested in an `array` tag. If the `value` tag is not nested in an
 `array` tag, this attribute can be ignored.
+
+As with params, the `value` tag has the option for literals. The `literal` tag isn't guaranteed to exist however.
+See Literals for more information. 
 
 **Example**- `value` tag:  
 `<value type='NOTHING' order='0'>Description...</value>`
@@ -258,7 +264,7 @@ The return type below returns a Number, String, or Code.
 ```
 **Example 2**- multiple parameter types:
 The parameter below returns a Number, String, or Code.
-```
+```xml
 <param type='NUMBER' name='p' optional='f' order='0'>
     returns a number, code, or string
     <alt-types>
@@ -268,6 +274,20 @@ The parameter below returns a Number, String, or Code.
 </param>
 ```
 
+### Literals
+The `literal` tag has no attributes and the text body is the value.
+
+**Example 1**- special param for [createVehicle](https://community.bistudio.com/wiki/createVehicle):
+```xml
+<param type='STRING' name='special' optional='f' order='4'>
+    "NONE", "FLY", "FORM", "CAN_COLLIDE". "CAN_COLLIDE" creates the vehicle exactly where asked,
+    not checking if others objects can cross its 3D model.
+    <literal>"NONE"</literal>
+    <literal>"FLY"</literal>
+    <literal>"FORM"</literal>
+    <literal>"CAN_COLLIDE"</literal>
+</param>
+```
 
 ### Types
 This list comes from primarily [here](https://community.bistudio.com/wiki/Data_Types).
@@ -336,7 +356,7 @@ See [this wiki article](https://community.bistudio.com/wiki/Position) for more i
 |POSITION_RELATIVE|Position Relative|[x:*Number*, y:*Number*, z:*Number*]|
 |POSITION_CONFIG|Position Config|[x:*Number*, z:*Number*, y:*Number*]|Notice that z and y are swapped|
 |VECTOR_3D|Vector 3D|[x:*Number*, y:*Number*, z:*Number*]|This type exists to clarify that it is a vector rather than a static position. From a type checking standpoint, it makes no difference.|
-|WAYPOINT|Waypoint|**TODO TODO TODO**|An array format for waypoints|
+|WAYPOINT|Waypoint|See Wiki|(Wiki doc)[https://community.bistudio.com/wiki/Waypoint]|
 
 ## Example Syntax 1 - Basic Command
 This is the xml for [abs](https://community.bistudio.com/wiki/abs).
