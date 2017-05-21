@@ -67,7 +67,7 @@ The `deprecated` tag has no attributes and is a child of the `command` tag. If t
 is deprecated (no longer supported by Bohemia).
 
 **Example**:
-```
+```xml
 <command name='fakeCommand' version='1.56' game='arma3' format='1'>
 <deprecated/>
 ...syntax tags, return tags, other things...
@@ -79,7 +79,7 @@ The `uncertain` tag has no attributes and is a child of the `command` tag. If th
 at least 1 syntax is uncertain to be correct and has been estimated (this usually happens with very poor documentation).
 
 **Example**:
-```
+```xml
 <command name='fakeCommand' version='1.56' game='arma3' format='1'>
 <uncertain/>
 ...syntax tags, return tags, other things...
@@ -175,7 +175,7 @@ It is often the case that an `array` tag is unbounded and has a child element. T
 array of that type that is unbounded. If the `array` tag has more than one child, the last child is the unbounded element.
 
 **Example 1**- `array1` tag nested in `return`:
-```
+```xml
 <array unbounded='t' order='0'>
     <value type='NUMBER' order='0'></value>
 </array>
@@ -183,7 +183,7 @@ array of that type that is unbounded. If the `array` tag has more than one child
 Here, the return type is an unbounded array of numbers (may be `[]`, may be `[1, 2]`, may be `[3.6, 9.8,1455]`, who knows).
 
 **Example 2**- different unbounded:
-```
+```xml
 <array unbounded='t' order='0'>
     <value type='NUMBER' order='0'></value>
     <value type='STRING' order='1'></value>
@@ -197,7 +197,7 @@ Possible values: `[1]`,`[1, "hello"]`, `[3.6,"hello","hello2"]`, etc.
 
 **Example 3**- array tag with unbounded array of bounded arrays:
 For this example, an unbounded array of bounded arrays is expected
-```
+```xml
 <array unbounded='t' order='0'>
     <array unbounded='f' order='0'>
         <value type='NUMBER' order='0'></value>
@@ -209,7 +209,7 @@ For this example, an unbounded array of bounded arrays is expected
 Possible values: `[]`, `[[0,""]]`, `[[0,""],[1,"hi"]]`
 
 **Example 4**- array tag nested in `syntax`:  
-```
+```xml
 <array unbounded='f' optional='f' order='1'>
     <param type='STRING' name='name1' optional='f' order='0'></param>
     <param type='STRING' name='name2' optional='f' order='1'></param>
@@ -226,7 +226,7 @@ The `array` tag means the parameters/values are determined. The `ARRAY` type des
 
  **Example**- both `ARRAY` type and `array` tag in the same command:  
  The [apply]() command xml is as follows:
- ```
+ ```xml
  <?xml version='1.0' encoding='UTF-8'?>
  <command name='apply' version='1.56' game='arma3' format='1'>
  	<syntax>
@@ -251,7 +251,7 @@ The `alt-types` tag is not guaranteed to exist. If it doesn't exist, there is on
 
 **Example 1**- multiple return types:
 The return type below returns a Number, String, or Code.
-```
+```xml
 <return>
     <value type='NUMBER' order='0'>
         returns a number, code, or string
@@ -360,7 +360,7 @@ See [this wiki article](https://community.bistudio.com/wiki/Position) for more i
 
 ## Example Syntax 1 - Basic Command
 This is the xml for [abs](https://community.bistudio.com/wiki/abs).
-```
+```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <command name='abs' version='1.00' game='ofp' format='1'>
 	<syntax>
@@ -374,7 +374,7 @@ This is the xml for [abs](https://community.bistudio.com/wiki/abs).
 
 ## Example Syntax 2 - Array return type
 This is the xml for [actionKeys](https://community.bistudio.com/wiki/actionKeys).
-```
+```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <command name='actionKeys' version='1.00' game='arma' format='1'>
 	<syntax>
@@ -391,7 +391,7 @@ This is the xml for [actionKeys](https://community.bistudio.com/wiki/actionKeys)
 ## Example Syntax 3 - Array Parameter
 This is the xml for [animate](https://community.bistudio.com/wiki/animate). This command has both a prefix argument and
 a postfix argument.
-```
+```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <command name='animate' version='1.75' game='ofpr' format='1'>
 	<syntax>
@@ -420,7 +420,7 @@ a postfix argument.
 
 ## Example Syntax 4 - Generic Array Return Type
 This is the xml for [actionIDs](https://community.bistudio.com/wiki/actionIDs). This command has an unbounded return.
-```
+```xml
 <?xml version='1.0' encoding='UTF-8'?>
 <command name='actionIDs' version='1.63' game='arma3' format='1'>
 	<syntax>
