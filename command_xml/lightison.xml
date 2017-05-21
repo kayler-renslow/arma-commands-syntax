@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<command name='lightIsOn' version='1.04' game='ofp' format='1'><syntax><return><value type='STRING' order='0'></value></return><param type='OBJECT' name='lamppost' optional='f' order='1'></param></syntax></command>
+<command name='lightIsOn' version='1.04' game='ofp' format='1'><syntax><return><value type='STRING' order='0'><literal>"ON"</literal><literal>"OFF"</literal><literal>"AUTO"</literal><literal>"ERROR"</literal></value></return><param type='OBJECT' name='lamppost' optional='f' order='1'></param></syntax></command>

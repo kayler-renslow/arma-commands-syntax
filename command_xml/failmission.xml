@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<command name='failMission' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='endtype' optional='f' order='1'></param></syntax></command>
+<command name='failMission' version='1.00' game='arma2' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='endtype' optional='f' order='1'><literal>"CONTINUE"</literal><literal>"KILLED"</literal><literal>"LOSER"</literal><literal>"END1"</literal><literal>"END2"</literal><literal>"END3"</literal><literal>"END4"</literal><literal>"END5"</literal><literal>"END6"</literal></param></syntax></command>

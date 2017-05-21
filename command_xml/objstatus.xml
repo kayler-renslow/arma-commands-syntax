@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<command name='objStatus' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='objectivenumber' optional='f' order='0'></param><param type='STRING' name='status' optional='f' order='1'></param></syntax></command>
+<command name='objStatus' version='1.00' game='ofp' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='objectivenumber' optional='f' order='0'></param><param type='STRING' name='status' optional='f' order='1'><literal>"ACTIVE"</literal><literal>"FAILED"</literal><literal>"DONE"</literal><literal>"HIDDEN"</literal></param></syntax></command>
