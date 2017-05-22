@@ -314,14 +314,10 @@ Here are all the types possible:
 |NUMBER|Number|
 |NOTHING|Nothing|No type/value.|
 |OBJECT|Object|
-|OBJECT_RTD|ObjectRTD|
-|ORIENT|Orient|
-|ORIENTATION|Orientation|
 |SCRIPT_HANDLE|Script (Handle)|
 |SIDE|Side|
 |STRING|String|
 |STRUCTURED_TEXT|Structured Text|
-|TARGET|Target|
 |TASK|Task|
 |TEAM_MEMBER|Team Member|
 |VOID|Void|Differs in nothing as this is an assignable value, where nothing is no return type/value.|
