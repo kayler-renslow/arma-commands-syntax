@@ -75,7 +75,7 @@ is deprecated (no longer supported by Bohemia).
 ```
 
 ### Command Uncertainty
-The `uncertain` tag has no attributes and is a child of the `command` tag. If this tag exists (not guaranteed to exist), the return type or 
+The `uncertain` tag has no attributes and is a child of the `command` tag. If this tag exists (not guaranteed to exist), the return type or
 at least 1 syntax is uncertain to be correct and has been estimated (this usually happens with very poor documentation).
 
 **Example**:
@@ -151,7 +151,7 @@ Here are descriptions of the `value` tag's attributes:
 `array` tag, this attribute can be ignored.
 
 As with params, the `value` tag has the option for literals. The `literal` tag isn't guaranteed to exist however.
-See Literals for more information. 
+See Literals for more information.
 
 **Example**- `value` tag:  
 `<value type='NOTHING' order='0'>Description...</value>`
@@ -304,7 +304,6 @@ Here are all the types possible:
 |CODE|Code|
 |CONFIG|Config|
 |CONTROL|Control|
-|DIARY_RECORD|Diary Record|
 |DISPLAY|Display|
 |EDEN_ENTITY|Eden Entity|
 |EXCEPTION_TYPE|Exception Type|
@@ -312,7 +311,6 @@ Here are all the types possible:
 |LOCATION|Location|[Wiki article](https://community.bistudio.com/wiki/Location)|
 |NAMESPACE|Namespace|
 |NET_OBJECT|NetObject|
-|NIL|nil|Differs in nothing as this is an assignable value, where nothing is no return type/value.|
 |NUMBER|Number|
 |NOTHING|Nothing|No type/value.|
 |OBJECT|Object|
@@ -325,11 +323,8 @@ Here are all the types possible:
 |STRUCTURED_TEXT|Structured Text|
 |TARGET|Target|
 |TASK|Task|
-|TEAM|Team|
 |TEAM_MEMBER|Team Member|
-|TRANS|Trans|
-|TRANSFORMATION|Transformation|
-|VOID|Void|
+|VOID|Void|Differs in nothing as this is an assignable value, where nothing is no return type/value.|
 |IF|If Type|Created from `if` command. Used with `do` command.|
 |FOR|For Type|Created from `for` command. Used with `do` command.|
 |SWITCH|Switch Type|Created from `switch` command. Used with `do` command.|
