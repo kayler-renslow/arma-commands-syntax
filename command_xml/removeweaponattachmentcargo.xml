@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='removeWeaponAttachmentCargo' version='1.22' game='arma3' format='1'><uncertain/><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='weaponID' optional='f' order='0'></param><param type='NUMBER' name='creatorID' optional='f' order='1'></param><param type='STRING' name='attachment' optional='f' order='2'></param></array></syntax></command>

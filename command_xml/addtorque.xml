@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='addTorque' version='1.72' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'>PhysX object</param><param type='VECTOR_3D' name='torque' optional='f' order='1'>world vector in format [x,y,z]</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='addForce' version='1.72' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='object' optional='f' order='0'>PhysX object</param><array unbounded='f' optional='f' order='1'><param type='VECTOR_3D' name='force' optional='f' order='0'>force vector (in world space) in format [x,y,z]</param><param type='POSITION_RELATIVE' name='position' optional='f' order='1'>model PositionRelative to which force is applied in format [x,y,z]</param></array></syntax></command>

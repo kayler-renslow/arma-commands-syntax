@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='enableVehicleSensor' version='1.72' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'></param><array unbounded='f' optional='f' order='1'><param type='STRING' name='componentName' optional='f' order='0'>The component's name (can either be it's "real name" or it's className)</param><param type='BOOLEAN' name='state' optional='f' order='1'>component state [on/off]</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='vectorModelToWorldVisual' version='1.71' game='arma3dev' format='1'><syntax><return><value type='VECTOR_3D' order='0'>vector direction in world space in format [x,y,z]</value></return><param type='OBJECT' name='object' optional='f' order='0'></param><param type='VECTOR_3D' name='modelDir' optional='f' order='1'>vector direction in model space in format [x,y,z]</param></syntax></command>
