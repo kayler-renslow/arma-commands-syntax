@@ -272,6 +272,95 @@ The parameter below returns a Number, String, or Code.
 </param>
 ```
 
+### Code Type Handler
+Anywhere a `CODE` type is specified (`param t='CODE'` for example), the tag can provide a **child** tag `code-handler`
+which specifies what the return type of the `CODE` must be. This tag (`code-handler`) is optional.
+
+There should be only 1 `code-handler` tag present. If there is more than 1, there is no guarantee of which one will be used. To provide
+what the `CODE` return type should be in the `code-handler` tag, specify a `t` attribute assigned to another Type.
+
+The `code-handler` tag only is for `CODE` return types. If a Type or alternative Type doesn't actually specify a `CODE` type,
+the `code-handler` tag will have no effect.
+
+Note that this is a recursive definition. It is legal to do the following:
+```xml
+<param type='CODE' name='p' optional='f' order='0'>
+	<code-handler t='CODE'><code-handler t='NUMBER'/></code-handler>
+<!--
+Param p should return a code that returns a code that returns a number.
+In SQF:
+a = {
+	thing = {0};
+	thing //return thing
+};
+COMMAND_THAT_REQUIRES_A_CODE_PARAMETER a
+-->
+</param>
+```
+
+**Example 1** - Return Type Code Handler: The return type can be a `CODE` that itself should return a boolean. Notice the alternative types as well.
+```xml
+<return>
+    <value type='CODE' order='0'>
+        <alt-types>
+            <t type='STRING'/>
+        </alt-types>
+        <code-handler t='BOOLEAN'/>
+    </value>
+</return>
+```
+
+**Example 2**- In a Parameter: should return a `CODE` that itself should return a `NUMBER`
+```xml
+<param type='CODE' name='p' optional='f' order='0'>
+	<code-handler t='NUMBER'/>
+</param>
+```
+
+**Example 3**- `alt-types` tag wrong placement: notice that the `code-handler` isn't in the `t` tag. Due to specification, it will be ignored
+because it must be a child of the owner type tag.
+```xml
+<param type='NUMBER' name='p' optional='f' order='0'>
+    	<code-handler t='CONFIG'/>
+	<alt-types>
+		<t type='CODE'/>
+	</alt-types>
+</param>
+```
+
+**Example 4**- `alt-types` tag correct placement: notice that there are 2 `code-handler` tags. The one in the `t` tag is the one that will be used. Therefore, the `CODE` type itself should return a `NUMBER` and not a `CONFIG`.
+```xml
+<param type='NUMBER' name='p' optional='f' order='0'>
+    	<code-handler t='CONFIG'/>
+	<alt-types>
+		<t type='CODE'>
+			<code-handler t='NUMBER'/>
+		</t>
+	</alt-types>
+</param>
+```
+
+**Example 5**- Duplicate: notice that there are 2 `code-handler` tags and the `param type='CODE'` is present. Which one that will be used is ambiguous.
+```xml
+<param type='CODE' name='p' optional='f' order='0'>
+    	<code-handler t='CONFIG'/>
+	<alt-types>
+		<t type='CODE'>
+			<code-handler t='NUMBER'/>
+		</t>
+	</alt-types>
+</param>
+```
+
+**Example 6**- Duplicates Again: notice that there are 2 `code-handler` tags. Which one that will be used is ambiguous.
+```xml
+<param type='CODE' name='p' optional='f' order='0'>
+    	<code-handler t='CONFIG'/>
+    	<code-handler t='NUMBER'/>
+</param>
+```
+
+
 ### Literals
 The `literal` tag has no attributes and the text body is the value.
 
