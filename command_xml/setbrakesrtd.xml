@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setBrakesRTD' version='1.00' game='TKOH' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT_RTD' name='helicopterRTD' optional='f' order='0'>helicopter</param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='value' optional='f' order='0'>value of the brakes</param><param type='NUMBER' name='wheelIndex' optional='f' order='1'>wheel index</param></array></syntax></command>

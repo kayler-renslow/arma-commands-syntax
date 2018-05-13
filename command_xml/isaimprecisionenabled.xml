@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='isAimPrecisionEnabled' version='1.54' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>True if affected, false if not</value></return><param type='OBJECT' name='unit' optional='f' order='1'>Unit which should be checked</param></syntax></command>

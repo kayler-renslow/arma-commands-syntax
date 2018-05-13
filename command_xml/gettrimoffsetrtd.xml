@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getTrimOffsetRTD' version='1.34' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'></array></return><param type='OBJECT' name='RTD_helicopter' optional='f' order='1'>Helicopter with advanced flight model enabled</param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='enableAutoTrimRTD' version='1.00' game='TKOH' format='1'><syntax><return><value type='BOOLEAN' order='0'></value></return><param type='OBJECT_RTD' name='helicopterRTD' optional='f' order='0'>helicopter</param><param type='BOOLEAN' name='enable' optional='f' order='1'>enable or disable</param></syntax></command>

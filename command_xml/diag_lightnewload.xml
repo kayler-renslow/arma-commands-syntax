@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='diag_lightNewLoad' version='1.82' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='STRING' name='path' optional='f' order='1'>The path to the config filename</param></syntax></command>

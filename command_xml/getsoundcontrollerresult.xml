@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getSoundControllerResult' version='1.64' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='OBJECT' name='obj' optional='f' order='0'>not sure why it has to be here but it won't work otherwise.</param><param type='CONFIG' name='configEntry' optional='f' order='1'>path to configured value, see example. Works only for cfgVehicles.</param></syntax></command>

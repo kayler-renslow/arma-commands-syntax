@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setActualCollectiveRTD' version='1.00' game='TKOH' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT_RTD' name='helicopterRTD' optional='f' order='0'>helicopter</param><param type='NUMBER' name='value' optional='f' order='1'>collective position</param></syntax></command>

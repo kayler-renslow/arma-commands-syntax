@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getSoundController' version='1.64' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'>must be a vehicle (does not work on soldiers)</param><param type='STRING' name='controller' optional='f' order='1'>name of sound controller, for example "rpm" or "thrust".</param></syntax></command>

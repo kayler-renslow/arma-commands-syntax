@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='setUserMFDText' version='1.78' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='OBJECT' name='vehicle' optional='f' order='0'>vehicle with MFD</param><array unbounded='f' optional='f' order='1'><param type='NUMBER' name='index' optional='f' order='0'></param><param type='STRING' name='value' optional='f' order='1'></param></array></syntax></command>

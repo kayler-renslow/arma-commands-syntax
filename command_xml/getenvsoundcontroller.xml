@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getEnvSoundController' version='1.64' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='POSITION' name='position' optional='f' order='0'></param><param type='STRING' name='controller' optional='f' order='1'>name of environmental variable like "trees" or "houses"</param></syntax></command>

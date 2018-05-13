@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='collectiveRTD' version='1.00' game='TKOH' format='1'><syntax><return><value type='NUMBER' order='0'></value></return><param type='OBJECT_RTD' name='helicopterRTD' optional='f' order='1'>helicopter</param></syntax></command>

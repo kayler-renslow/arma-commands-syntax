@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getAllEnvSoundControllers' version='1.64' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'></array></return><param type='POSITION' name='position' optional='f' order='1'></param></syntax></command>

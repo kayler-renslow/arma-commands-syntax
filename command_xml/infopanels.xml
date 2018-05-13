@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='infoPanels' version='1.72' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'></array></return><param type='OBJECT' name='unit' optional='f' order='1'>the concerned vehicle</param></syntax><syntax><return><array unbounded='t' order='0'></array></return><array unbounded='f' optional='f' order='1'><param type='OBJECT' name='unit' optional='f' order='0'>the concerned vehicle</param><param type='ARRAY' name='turretPath' optional='f' order='1'>turret index</param></array></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='clear3DENInventory' version='1.56' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='ARRAY' name='entities' optional='f' order='1'>Array of Eden Editor entities</param></syntax></command>

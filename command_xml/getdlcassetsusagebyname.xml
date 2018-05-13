@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='getDLCAssetsUsageByName' version='1.16' game='arma3' format='1'><syntax><return><array unbounded='t' order='0'></array></return><param type='STRING' name='assetName' optional='f' order='1'></param></syntax></command>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='findIf' version='1.82' game='arma3' format='1'><syntax><return><value type='NUMBER' order='0'>0 based position of the first array element for which the code evaluate to true, -1 if not found</value></return><param type='ARRAY' name='array' optional='f' order='0'>array to search in</param><param type='CODE' name='code' optional='f' order='1'>code defining an element to find, processed element can be referenced within the code as _x</param></syntax></command>
