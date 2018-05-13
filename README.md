@@ -6,7 +6,7 @@ Each command is manually converted to XML, with help of a Java-written
 tool (the tool is not publicly available).
 
 ## Progress
-All commands up through Arma 3 version 1.76 have been converted (2123 total conversions). Phew.
+All commands up through Arma 3 version 1.82 have been converted (2188 total conversions). Phew.
 
 ## How-to Use
 ### Intro
