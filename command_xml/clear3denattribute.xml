@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='clear3DENAttribute' version='1.56' game='arma3' format='1'><syntax><return><value type='BOOLEAN' order='0'>true on success</value></return><param type='EDEN_ENTITY' name='entity' optional='f' order='0'><alt-types><t type='NUMBER'/></alt-types></param><param type='STRING' name='attribute' optional='f' order='1'>attribute property</param></syntax></command>

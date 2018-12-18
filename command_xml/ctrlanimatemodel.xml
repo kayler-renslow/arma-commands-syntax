@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='ctrlAnimateModel' version='1.84' game='arma3' format='1'><syntax><return><value type='NOTHING' order='0'></value></return><param type='CONTROL' name='control' optional='f' order='0'>3D control</param><array unbounded='f' optional='f' order='1'><param type='STRING' name='source' optional='f' order='0'>common source</param><param type='NUMBER' name='phase' optional='f' order='1'>wanted animation phase</param></array></syntax></command>
