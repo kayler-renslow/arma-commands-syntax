@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name='#' version='' game='' format='1'>
+	<syntax>
+		<return>
+			<value type='ANYTHING' order='0'/>
+		</return>
+		<param type='ARRAY' name='array' optional='f' order='0'/>
+		<param type='NUMBER' name='index' optional='f' order='1'>
+		</param>
+	</syntax>
+</command>

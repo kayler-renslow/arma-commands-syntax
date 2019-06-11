@@ -16,3 +16,13 @@
 `lt`<
 `gt`>
 `excl`!
+`lparen`(
+`rparen`)
+`lcurly`{
+`rcurly`}
+`lsquare`[
+`rsquare`]
+`comma`,
+`semicolon`;
+`quest`?
+`colon`:

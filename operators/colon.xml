@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<command name=':' version='' game='' format='1'>
+	<syntax>
+		<return>
+			<value type='NOTHING' order='0'/>
+		</return>
+		<param type='SWITCH' name='a' optional='f' order='0'/>
+		<param type='CODE' name='b' optional='f' order='1'>
+		</param>
+	</syntax>
+</command>
